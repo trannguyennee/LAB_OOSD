@@ -9,7 +9,7 @@
 - **Lớp:** 12CNPM2
 - **Trường:** Đại học Tài nguyên và Môi trường TP. Hồ Chí Minh (HCMUNRE)
 - **Môn học:** Phương pháp phát triển phần mềm hướng đối tượng (OOSD)
-- **Giảng viên hướng dẫn:** Thầy Huỳnh Kòm
+- **Giảng viên hướng dẫn:** Thầy Huynh
 
 ---
 
