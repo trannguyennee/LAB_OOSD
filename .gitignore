@@ -1,0 +1,21 @@
+## Visual Studio temporary and build files
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+packages/
+
+## Office temporary files
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+## OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
