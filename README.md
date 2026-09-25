@@ -4,15 +4,15 @@
 
 ---
 
-### 👨‍🎓 Thông tin sinh viên
+### Thông tin sinh viên
 - **Họ và tên:** Trần Nguyên
 - **Mã số sinh viên (MSSV):** 1250080121
 - **Lớp:** 12CNPM2
-- **Giảng viên hướng dẫn:** Thầy Huỳnh Kòm
+- **Giảng viên hướng dẫn:** Thầy Huynh
 
 ---
 
-### 📁 Cấu trúc Repository
+### Cấu trúc Repository
 
 ```text
 LAB_OOSD/
@@ -66,4 +66,4 @@ LAB_OOSD/
    - Cơ sở dữ liệu SQL Server với 18 bảng chuẩn hóa, bảo toàn tính toàn vẹn dữ liệu.
    - 7 Form giao diện chuẩn 100% theo bản vẽ của Thầy Huỳnh Kòm: `FrmMain`, `FrmDanhMuc`, `FrmPhongTienNghi`, `FrmDatPhong`, `FrmDichVu`, `FrmTraPhong`, `FrmThongKe`.
    - Quy trình nghiệp vụ trọn gói: Đặt phòng $\rightarrow$ Nhận phòng $\rightarrow$ Sử dụng dịch vụ $\rightarrow$ Đền bù tiện nghi $\rightarrow$ Hóa đơn $\rightarrow$ Thanh toán $\rightarrow$ Trả phòng $\rightarrow$ Thống kê báo cáo.
-   - Vượt qua 100% 15 Test Case bắt buộc của đề bài.
+  
