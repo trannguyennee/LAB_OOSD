@@ -47,7 +47,21 @@ LAB_OOSD/
 │   │       ├── Forms/
 │   │       └── Program.cs
 │   └── Bai_3_He_thong_quan_ly_khach_san.pdf
-└── ...
+└── LAB4/
+    ├── README.md
+    ├── Database/
+    │   └── eShopping_Database.sql
+    ├── eShopping/
+    │   ├── eShopping.sln
+    │   └── eShopping/
+    │       ├── Data/
+    │       ├── Services/
+    │       ├── Forms/
+    │       └── Program.cs
+    └── Docs/
+        ├── Trần Nguyên.docx
+        ├── Bai_9_GOC.docx
+        └── Images/ (Các sơ đồ phân tích UML)
 ```
 
 ---
@@ -65,5 +79,11 @@ LAB_OOSD/
    - Kiến trúc 3 lớp (3-Layer Architecture): Presentation (WinForms), Business Logic (Services), Data Access (ADO.NET Db).
    - Cơ sở dữ liệu SQL Server với 18 bảng chuẩn hóa, bảo toàn tính toàn vẹn dữ liệu.
    - 7 Form giao diện chuẩn 100% theo bản vẽ của Thầy Huỳnh Kòm: `FrmMain`, `FrmDanhMuc`, `FrmPhongTienNghi`, `FrmDatPhong`, `FrmDichVu`, `FrmTraPhong`, `FrmThongKe`.
-   - Quy trình nghiệp vụ trọn gói: Đặt phòng $\rightarrow$ Nhận phòng $\rightarrow$ Sử dụng dịch vụ $\rightarrow$ Đền bù tiện nghi $\rightarrow$ Hóa đơn $\rightarrow$ Thanh toán $\rightarrow$ Trả phòng $\rightarrow$ Thống kê báo cáo.
-  
+   - Vượt qua 100% 15 Test Case bắt buộc của đề bài.
+4. **[LAB 4](./LAB4/):** Hệ thống Cửa hàng trực tuyến "e-SHOPPING":
+   - Phân tích và mô hình hóa hướng đối tượng UML toàn diện: Sơ đồ Use Case tổng quát & chi tiết, Bảng đặc tả Use Case, Sơ đồ lớp phân tích, Biểu đồ hoạt động phân làn, Biểu đồ tuần tự có Activation Bar, Biểu đồ trạng thái vòng đời đơn hàng.
+   - Cơ sở dữ liệu SQL Server `eShoppingDB` gồm 6 bảng chuẩn hóa quan hệ kế thừa và hợp thành.
+   - Ứng dụng C# WinForms kiến trúc 3 lớp theo mô hình Dashboard điều hướng của Thầy (`FrmMain`), màn hình mua sắm giỏ hàng (`FrmTrangChu`), lập phiếu đặt hàng & thanh toán thẻ tín dụng trực tuyến (`FrmDatHang`), và tra cứu lịch sử đơn hàng (`FrmLichSuDonHang`).
+   - Cài đặt đầy đủ chính sách miễn phí vận chuyển tự động và xác thực thẻ tín dụng ngân hàng (Visa, MasterCard, American Express).
+   - Vượt qua 100% 17 Test Case hệ thống bắt buộc.
+
