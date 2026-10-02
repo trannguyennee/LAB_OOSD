@@ -3,17 +3,17 @@
 
 ---
 
-### 👨‍🎓 Thông tin sinh viên
+### Thông tin sinh viên
 - **Họ và tên:** Trần Nguyên
 - **Mã số sinh viên (MSSV):** 1250080121
 - **Lớp:** 12CNPM2
 - **Trường:** Đại học Tài nguyên và Môi trường TP. Hồ Chí Minh (HCMUNRE)
 - **Môn học:** Phương pháp phát triển phần mềm hướng đối tượng (OOSD)
-- **Giảng viên hướng dẫn:** Thầy Huỳnh Kòm
+- **Giảng viên hướng dẫn:** Thầy Huynh
 
 ---
 
-### 🏛️ Kiến trúc hệ thống 3 lớp (3-Layer Architecture)
+### Kiến trúc hệ thống 3 lớp (3-Layer Architecture)
 Hệ thống được thiết kế và triển khai chặt chẽ theo mô hình phân tầng chuẩn mực trong công nghệ phần mềm trên nền tảng **.NET Framework 4.7.2 (Visual Studio 2022)** kết nối **Microsoft SQL Server**:
 
 1. **Presentation Layer (`Forms/`):**
@@ -35,7 +35,7 @@ Hệ thống được thiết kế và triển khai chặt chẽ theo mô hình 
 
 ---
 
-### 🗄️ Cấu trúc Cơ sở dữ liệu (eShoppingDB)
+### Cấu trúc Cơ sở dữ liệu (eShoppingDB)
 Kịch bản T-SQL tại `Database/eShopping_Database.sql` thiết kế chuẩn hóa 6 bảng với đầy đủ khóa chính, khóa ngoại `ON DELETE CASCADE` và ràng buộc toàn vẹn:
 
 1. `NHOM_SAN_PHAM`: Danh mục loại sản phẩm (`MaNhom`, `TenNhom`, `MoTa`).
@@ -47,7 +47,7 @@ Kịch bản T-SQL tại `Database/eShopping_Database.sql` thiết kế chuẩn 
 
 ---
 
-### 🧪 Bảng kết quả kiểm thử 17 Test Case hệ thống
+### Bảng kết quả kiểm thử 17 Test Case hệ thống
 
 | Mã TC | Phân hệ / Chức năng | Kịch bản kiểm thử | Dữ liệu đầu vào | Kết quả mong đợi | Kết quả thực tế | Trạng thái |
 | :---: | :--- | :--- | :--- | :--- | :--- | :---: |
@@ -71,7 +71,7 @@ Kịch bản T-SQL tại `Database/eShopping_Database.sql` thiết kế chuẩn 
 
 ---
 
-### 🚀 Hướng dẫn chạy chương trình
+### Hướng dẫn chạy chương trình
 1. **Bước 1:** Mở file `Database/eShopping_Database.sql` trong SQL Server Management Studio (SSMS) và nhấn **Execute** (`F5`) để khởi tạo CSDL `eShoppingDB`.
 2. **Bước 2:** Mở file `eShopping/eShopping.sln` bằng **Visual Studio 2022**.
 3. **Bước 3:** Nhấn **F5** (hoặc nút **Start**) để khởi chạy ứng dụng. Màn hình Menu Trang chủ 6 nút sẽ hiển thị, chọn nút **1. Mua sắm & Đặt hàng** để trải nghiệm đầy đủ luồng nghiệp vụ!
