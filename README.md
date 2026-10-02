@@ -16,6 +16,15 @@
 
 ```text
 LAB_OOSD/
+├── LAB0/
+│   ├── README.md
+│   ├── docs/
+│   │   └── LAB_001250080121_Trần Nguyên.docx
+│   ├── evidence/ (Ảnh chụp minh chứng môi trường, Git, Maven, PlantUML)
+│   ├── src/ (Mã nguồn Starter Project Java)
+│   ├── uml/ (Sơ đồ PlantUML)
+│   ├── environment.txt
+│   └── pom.xml
 ├── LAB1/
 │   ├── README.md
 │   ├── LAB1_BAI_1_1250080121_Tran_Nguyen_12CNPM2.docx
@@ -67,6 +76,10 @@ LAB_OOSD/
 ---
 
 ### 📌 Danh mục bài thực hành
+0. **[LAB 0](./LAB0/):** Cài đặt và cấu hình môi trường phát triển:
+   - Cài đặt Oracle JDK 24, Apache Maven 3.9, Git 2.52, IntelliJ IDEA và plugin PlantUML.
+   - Thiết lập biến môi trường hệ thống (`JAVA_HOME`, `MAVEN_HOME`, `PATH`).
+   - Biên dịch, kiểm thử JUnit 5 và đóng gói Starter Project thành file JAR (`mvn clean test package`).
 1. **[LAB 1](./LAB1/):** Phân tích và thiết kế hướng đối tượng:
    - Bài 1: Hệ thống thư viện trực tuyến.
    - Bài 2: Hệ thống quản lý bệnh viện.
