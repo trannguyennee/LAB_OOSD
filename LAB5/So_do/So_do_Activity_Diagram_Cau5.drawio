@@ -1,0 +1,282 @@
+<mxfile host="app.diagrams.net" agent="Antigravity OOSD System">
+  <diagram id="Activity_Diagram_Cau5" name="Activity Diagram - Quy trình Tour">
+    <mxGraphModel dx="1741" dy="875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1850" pageHeight="2650" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="act_title" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=15;fontStyle=1;fontFamily=Times New Roman;fontColor=#000000;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;SƠ ĐỒ HOẠT ĐỘNG (ACTIVITY DIAGRAM) - QUY TRÌNH TỪ ĐĂNG KÝ ĐẾN KẾT THÚC TOUR&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="1000" x="400" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="lane_kh" parent="1" style="swimlane;html=1;startSize=36;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontStyle=1;align=center;fontSize=15;fontFamily=Times New Roman;fontColor=#000000;" value="KHÁCH HÀNG (ĐOÀN / LẺ)" vertex="1">
+          <mxGeometry height="2420" width="340" x="30" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="a_kh_chonve" parent="lane_kh" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;align=center;fontColor=#000000;" value="Chọn số lượng vé, điểm đón&#xa;&amp;amp; nhập thông tin cá nhân" vertex="1">
+          <mxGeometry height="50" width="240" x="60" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="a_kh_timve" parent="lane_kh" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;align=center;fontColor=#000000;" value="Yêu cầu tra cứu chuyến đi&#xa;&amp;amp; số chỗ trống" vertex="1">
+          <mxGeometry height="50" width="240" x="60" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_11" edge="1" parent="lane_kh" source="dec_type" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;fontColor=#000000;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=0;entryY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="a_kh_guidkdoan" value="[Khách đoàn &amp;gt;= 12 người]">
+          <mxGeometry relative="1" x="0.1276" y="70" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="20" y="152.5" />
+              <mxPoint x="20" y="625" />
+            </Array>
+            <mxPoint x="95" y="140" as="sourcePoint" />
+            <mxPoint x="160" y="587.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lane_nv" parent="1" style="swimlane;html=1;startSize=36;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontStyle=1;align=center;fontSize=15;fontFamily=Times New Roman;fontColor=#000000;" value="NHÂN VIÊN BÁN VÉ &amp;amp; ĐIỀU HÀNH" vertex="1">
+          <mxGeometry height="2420" width="340" x="370" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lane_ht" parent="1" style="swimlane;html=1;startSize=36;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontStyle=1;align=center;fontSize=15;fontFamily=Times New Roman;fontColor=#000000;" value="HỆ THỐNG PHẦN MỀM" vertex="1">
+          <mxGeometry height="2420" width="330" x="710" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="a_ht_baochet" parent="lane_ht" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;align=center;fontColor=#000000;" value="Thông báo hết vé &amp;amp; gợi ý&#xa;chuyến đi ngày khác" vertex="1">
+          <mxGeometry height="50" width="240" x="45" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="a_ht_luukhaosat" parent="lane_ht" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;align=center;fontColor=#000000;" value="Lưu trữ kết quả đánh giá để&#xa;nâng cao chất lượng phục vụ" vertex="1">
+          <mxGeometry height="50" width="240" x="30" y="1870" as="geometry" />
+        </mxCell>
+        <mxCell id="lane_hdv" parent="1" style="swimlane;html=1;startSize=36;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontStyle=1;align=center;fontSize=15;fontFamily=Times New Roman;fontColor=#000000;" value="HƯỚNG DẪN VIÊN (HDV)" vertex="1">
+          <mxGeometry height="2420" width="330" x="1040" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lane_kt" parent="1" style="swimlane;html=1;startSize=36;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontStyle=1;align=center;fontSize=15;fontFamily=Times New Roman;fontColor=#000000;" value="NHÂN VIÊN KẾ TOÁN" vertex="1">
+          <mxGeometry height="2420" width="320" x="1370" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="a_kt_thucoc" parent="lane_kt" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;align=center;fontColor=#000000;" value="Lập phiếu thu tiền đặt cọc&#xa;&amp;amp; ký hợp đồng dịch vụ đoàn" vertex="1">
+          <mxGeometry height="50" width="240" x="50" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="start_node" parent="1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#000000;fontSize=15;" value="" vertex="1">
+          <mxGeometry height="28" width="28" x="196" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="dec_type" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;align=center;fontColor=#000000;" value="Hình thức&#xa;đăng ký tour?" vertex="1">
+          <mxGeometry height="65" width="130" x="145" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="a_ht_kiemcho" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;align=center;fontColor=#000000;" value="Kiểm tra số chỗ trống khả dụng&#xa;theo ngày khởi hành" vertex="1">
+          <mxGeometry height="50" width="240" x="755" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="dec_cho" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;align=center;fontColor=#000000;" value="Còn chỗ&#xa;trống?" vertex="1">
+          <mxGeometry height="55" width="100" x="825" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="a_kh_thanhtoanle" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;align=center;fontColor=#000000;" value="Thanh toán 100% tiền vé&#xa;(online hoặc tiền mặt)" vertex="1">
+          <mxGeometry height="50" width="240" x="90" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="a_ht_xuatve" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;align=center;fontColor=#000000;" value="Ghi nhận thanh toán, xuất vé&#xa;&amp;amp; trừ số chỗ còn trống" vertex="1">
+          <mxGeometry height="50" width="240" x="755" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="a_kh_guidkdoan" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;align=center;fontColor=#000000;" value="Gửi phiếu đăng ký tour đoàn&#xa;(chọn ngày đi &amp;amp; điểm đón riêng)" vertex="1">
+          <mxGeometry height="50" width="240" x="90" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="a_nv_thoathuan" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;align=center;fontColor=#000000;" value="Thỏa thuận chi tiết lộ trình,&#xa;dịch vụ &amp;amp; dự toán kinh phí" vertex="1">
+          <mxGeometry height="50" width="240" x="420" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="a_kh_danhsachbh" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;align=center;fontColor=#000000;" value="Cung cấp DS người đi (CCCD,&#xa;ngày sinh) mua bảo hiểm" vertex="1">
+          <mxGeometry height="50" width="240" x="90" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="a_nv_nhanbh" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;align=center;fontColor=#000000;" value="Kiểm tra danh sách nhân khẩu&#xa;&amp;amp; hoàn tất hồ sơ bảo hiểm" vertex="1">
+          <mxGeometry height="50" width="240" x="420" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="a_kh_nopcoc" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;align=center;fontColor=#000000;" value="Nộp tiền đặt cọc tour đoàn&#xa;(theo % hợp đồng)" vertex="1">
+          <mxGeometry height="50" width="240" x="90" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="merge_dk" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.2;fontSize=15;" value="" vertex="1">
+          <mxGeometry height="30" width="40" x="520" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="a_nv_phanhdv" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;align=center;fontColor=#000000;" value="Phân công Hướng dẫn viên (HDV)&#xa;phù hợp phụ trách tuyến" vertex="1">
+          <mxGeometry height="50" width="240" x="420" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="a_hdv_nhantour" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;align=center;fontColor=#000000;" value="Tiếp nhận thông tin phân công,&#xa;lịch trình &amp;amp; danh sách khách" vertex="1">
+          <mxGeometry height="50" width="240" x="1085" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="a_nv_dieuphoi" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;align=center;fontColor=#000000;" value="Liên hệ đặt dịch vụ hậu cần:&#xa;- Xe/vé tàu/máy bay theo chặng&#xa;- Khách sạn nơi dừng (2-5 sao)&#xa;- Nhà hàng &amp;amp; vé tham quan" vertex="1">
+          <mxGeometry height="75" width="240" x="420" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="a_ht_guithongbao" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;align=center;fontColor=#000000;" value="Tự động gửi Email/SMS thông báo&#xa;giờ hẹn, điểm đón &amp;amp; SĐT HDV" vertex="1">
+          <mxGeometry height="55" width="240" x="755" y="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="a_kh_nhantb" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;align=center;fontColor=#000000;" value="Nhận thông báo khởi hành&#xa;&amp;amp; xác nhận điểm đón hẹn" vertex="1">
+          <mxGeometry height="55" width="240" x="90" y="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="a_hdv_diemdanh" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;align=center;fontColor=#000000;" value="Có mặt tại điểm hẹn, đón khách&#xa;&amp;amp; đối soát danh sách điểm danh" vertex="1">
+          <mxGeometry height="50" width="240" x="1085" y="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="a_kh_taptrung" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;align=center;fontColor=#000000;" value="Tập trung đúng giờ quy định,&#xa;lên xe bắt đầu hành trình" vertex="1">
+          <mxGeometry height="50" width="240" x="90" y="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="a_hdv_dantour" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;align=center;fontColor=#000000;" value="Hướng dẫn tham quan thắng cảnh,&#xa;di tích lịch sử &amp;amp; quản lý ăn nghỉ" vertex="1">
+          <mxGeometry height="55" width="240" x="1085" y="1400" as="geometry" />
+        </mxCell>
+        <mxCell id="dec_doipt" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;align=center;fontColor=#000000;" value="Phát sinh đổi&#xa;phương tiện?" vertex="1">
+          <mxGeometry height="60" width="100" x="1155" y="1490" as="geometry" />
+        </mxCell>
+        <mxCell id="a_hdv_xulypt" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;align=center;fontColor=#000000;" value="Điều phối phương tiện thay thế&#xa;(xe đò, tàu hỏa, máy bay...)" vertex="1">
+          <mxGeometry height="50" width="240" x="1085" y="1590" as="geometry" />
+        </mxCell>
+        <mxCell id="a_hdv_nhatky" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;align=center;fontColor=#000000;" value="Cập nhật nhật ký hành trình thực tế&#xa;vào hệ thống mỗi ngày" vertex="1">
+          <mxGeometry height="50" width="240" x="1085" y="1680" as="geometry" />
+        </mxCell>
+        <mxCell id="a_hdv_trakhach" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;align=center;fontColor=#000000;" value="Đưa khách về điểm trả an toàn,&#xa;kết thúc tour tại TP.HCM" vertex="1">
+          <mxGeometry height="50" width="240" x="1085" y="1770" as="geometry" />
+        </mxCell>
+        <mxCell id="a_hdv_phatkhaosat" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;align=center;fontColor=#000000;" value="Phát phiếu khảo sát đánh giá&#xa;chất lượng phục vụ cho khách" vertex="1">
+          <mxGeometry height="50" width="240" x="1085" y="1860" as="geometry" />
+        </mxCell>
+        <mxCell id="a_kh_dienkhaosat" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;align=center;fontColor=#000000;" value="Điền phiếu khảo sát ý kiến&#xa;(xe, ăn, phòng nghỉ, HDV)" vertex="1">
+          <mxGeometry height="50" width="240" x="90" y="1860" as="geometry" />
+        </mxCell>
+        <mxCell id="dec_thanhtoan" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;align=center;fontColor=#000000;" value="Khách đoàn&#xa;hay khách lẻ?" vertex="1">
+          <mxGeometry height="60" width="100" x="1480" y="1960" as="geometry" />
+        </mxCell>
+        <mxCell id="a_kt_quyetdoan" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;align=center;fontColor=#000000;" value="Tổng hợp chi phí thực tế,&#xa;xuất hóa đơn &amp;amp; thanh lý HĐ đoàn" vertex="1">
+          <mxGeometry height="55" width="240" x="1410" y="2070" as="geometry" />
+        </mxCell>
+        <mxCell id="a_kh_thanhtoanconlai" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;align=center;fontColor=#000000;" value="Thanh toán số tiền còn lại&#xa;&amp;amp; hoàn tất hợp đồng" vertex="1">
+          <mxGeometry height="55" width="240" x="90" y="2070" as="geometry" />
+        </mxCell>
+        <mxCell id="a_kt_khachlexong" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;align=center;fontColor=#000000;" value="Xác nhận đối soát doanh thu&#xa;vé lẻ đã thu trước" vertex="1">
+          <mxGeometry height="50" width="240" x="1410" y="2170" as="geometry" />
+        </mxCell>
+        <mxCell id="a_kt_tinhluonghdv" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;align=center;fontColor=#000000;" value="Căn cứ nhật ký hành trình thực tế&#xa;chi trả thù lao &amp;amp; công tác phí HDV" vertex="1">
+          <mxGeometry height="55" width="240" x="1410" y="2270" as="geometry" />
+        </mxCell>
+        <mxCell id="end_node" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;fontSize=15;" value="" vertex="1">
+          <mxGeometry height="28" width="28" x="1516" y="2360" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_1" edge="1" parent="1" source="start_node" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;fontColor=#000000;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="dec_type" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_2" edge="1" parent="1" source="dec_type" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;fontColor=#000000;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="a_kh_timve" value="[Khách lẻ theo chuyến]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_3" edge="1" parent="1" source="a_kh_timve" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;fontColor=#000000;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="a_ht_kiemcho" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_4" edge="1" parent="1" source="a_ht_kiemcho" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;fontColor=#000000;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="dec_cho" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_5" edge="1" parent="1" source="dec_cho" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;fontColor=#000000;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="a_ht_baochet" value="[Hết chỗ]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_7" edge="1" parent="1" source="dec_cho" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;fontColor=#000000;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" target="a_kh_chonve" value="[Còn chỗ]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_8" edge="1" parent="1" source="a_kh_chonve" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;fontColor=#000000;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="a_kh_thanhtoanle" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_9" edge="1" parent="1" source="a_kh_thanhtoanle" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;fontColor=#000000;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="a_ht_xuatve" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_10" edge="1" parent="1" source="a_ht_xuatve" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;fontColor=#000000;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=1;entryY=0.5;" target="merge_dk" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_12" edge="1" parent="1" source="a_kh_guidkdoan" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;fontColor=#000000;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="a_nv_thoathuan" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_13" edge="1" parent="1" source="a_nv_thoathuan" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;fontColor=#000000;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="a_kh_danhsachbh" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_14" edge="1" parent="1" source="a_kh_danhsachbh" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;fontColor=#000000;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="a_nv_nhanbh" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_15" edge="1" parent="1" source="a_nv_nhanbh" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;fontColor=#000000;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="a_kh_nopcoc" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_16" edge="1" parent="1" source="a_kh_nopcoc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;fontColor=#000000;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="a_kt_thucoc" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_17" edge="1" parent="1" source="a_kt_thucoc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;fontColor=#000000;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="merge_dk" value="">
+          <mxGeometry relative="1" x="0.0194" as="geometry">
+            <Array as="points">
+              <mxPoint x="1540" y="920" />
+              <mxPoint x="540" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow_18" edge="1" parent="1" source="merge_dk" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;fontColor=#000000;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="a_nv_phanhdv" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_19" edge="1" parent="1" source="a_nv_phanhdv" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;fontColor=#000000;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="a_hdv_nhantour" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_20" edge="1" parent="1" source="a_nv_phanhdv" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;fontColor=#000000;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="a_nv_dieuphoi" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_21" edge="1" parent="1" source="a_nv_dieuphoi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;fontColor=#000000;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="a_ht_guithongbao" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_23" edge="1" parent="1" source="a_kh_nhantb" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;fontColor=#000000;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="a_kh_taptrung" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_24" edge="1" parent="1" source="a_hdv_nhantour" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;fontColor=#000000;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="a_hdv_diemdanh" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_25" edge="1" parent="1" source="a_kh_taptrung" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;fontColor=#000000;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="a_hdv_diemdanh" value="Đón khách">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_26" edge="1" parent="1" source="a_hdv_diemdanh" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;fontColor=#000000;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="a_hdv_dantour" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_27" edge="1" parent="1" source="a_hdv_dantour" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;fontColor=#000000;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="dec_doipt" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_28" edge="1" parent="1" source="dec_doipt" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;fontColor=#000000;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="a_hdv_xulypt" value="[Có phát sinh]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_29" edge="1" parent="1" source="a_hdv_xulypt" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;fontColor=#000000;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="a_hdv_nhatky" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_30" edge="1" parent="1" source="dec_doipt" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;fontColor=#000000;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=1;entryY=0.5;" target="a_hdv_nhatky" value="[Không]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_31" edge="1" parent="1" source="a_hdv_nhatky" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;fontColor=#000000;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="a_hdv_trakhach" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_32" edge="1" parent="1" source="a_hdv_trakhach" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;fontColor=#000000;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="a_hdv_phatkhaosat" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_33" edge="1" parent="1" source="a_hdv_phatkhaosat" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;fontColor=#000000;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" target="a_kh_dienkhaosat" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_35" edge="1" parent="1" source="a_hdv_trakhach" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;fontColor=#000000;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="dec_thanhtoan" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_36" edge="1" parent="1" source="dec_thanhtoan" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;fontColor=#000000;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="a_kt_quyetdoan" value="[Khách đoàn]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_37" edge="1" parent="1" source="a_kt_quyetdoan" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;fontColor=#000000;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" target="a_kh_thanhtoanconlai" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_38" edge="1" parent="1" source="a_kh_thanhtoanconlai" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;fontColor=#000000;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" target="a_kt_tinhluonghdv" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_39" edge="1" parent="1" source="dec_thanhtoan" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;fontColor=#000000;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=1;entryY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="a_kt_khachlexong" value="[Khách lẻ]">
+          <mxGeometry relative="1" x="-0.1746" y="-30" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1780" y="1990" as="sourcePoint" />
+            <mxPoint x="1730" y="2170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow_40" edge="1" parent="1" source="a_kt_khachlexong" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;fontColor=#000000;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="a_kt_tinhluonghdv" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_41" edge="1" parent="1" source="a_kt_tinhluonghdv" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;fontColor=#000000;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="end_node" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lykV8dlkoboeVEoaRK4A-1" edge="1" parent="1" source="a_ht_guithongbao" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;fontColor=#000000;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" target="a_kh_nhantb" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="1030" as="sourcePoint" />
+            <mxPoint x="1065" y="1102" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lykV8dlkoboeVEoaRK4A-2" edge="1" parent="1" source="a_kh_dienkhaosat" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;fontFamily=Times New Roman;fontSize=15;fontStyle=2;fontColor=#000000;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0;entryY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="a_ht_luukhaosat" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="1750" as="sourcePoint" />
+            <mxPoint x="960" y="1830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
