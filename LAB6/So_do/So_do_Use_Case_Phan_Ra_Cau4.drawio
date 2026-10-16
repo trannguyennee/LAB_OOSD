@@ -1,0 +1,319 @@
+<mxfile host="app.diagrams.net" agent="Antigravity OOSD System" pages="4">
+  <diagram id="Tab1_TiepNhan_CapHoSo" name="1. Tiếp nhận &amp; Cấp HSBA">
+    <mxGraphModel dx="1820" dy="915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t1_title" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=17;fontStyle=1;fontFamily=Times New Roman;" value="SƠ ĐỒ USE CASE PHÂN RÃ: GIAI ĐOẠN 1 - TIẾP NHẬN THÔNG TIN &amp; CẤP HỒ SƠ BỆNH ÁN" vertex="1">
+          <mxGeometry height="40" width="1100" x="400" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="t1_boundary" parent="1" style="shape=rect;html=1;whiteSpace=wrap;align=center;verticalAlign=top;spacingTop=12;fontSize=15;fontStyle=1;fontFamily=Times New Roman;strokeWidth=2;" value="PHÂN HỆ TIẾP NHẬN BỆNH NHÂN &amp; QUẢN LÝ HỒ SƠ BỆNH ÁN BAN ĐẦU" vertex="1">
+          <mxGeometry height="820" width="1050" x="420" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="t1_act_bn" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontFamily=Times New Roman;fontSize=14;fontStyle=1;" value="Bệnh nhân" vertex="1">
+          <mxGeometry height="80" width="45" x="220" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="t1_act_nv" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontFamily=Times New Roman;fontSize=14;fontStyle=1;" value="Nhân viên&#xa;Tiếp nhận &amp; CSKH" vertex="1">
+          <mxGeometry height="80" width="45" x="1620" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="t1_uc01" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=13;fontStyle=1;" value="UC1.1: Tiếp nhận thông tin&#xa;hành chính &amp; số CCCD" vertex="1">
+          <mxGeometry height="65" width="240" x="490" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="t1_uc02" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=13;fontStyle=0;" value="UC1.2: Chụp &amp; lưu ảnh&#xa;thẻ chân dung 3x4" vertex="1">
+          <mxGeometry height="60" width="220" x="850" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="t1_uc03" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=13;fontStyle=1;" value="UC1.3: Cấp mã &amp; mở&#xa;hồ sơ bệnh án mới" vertex="1">
+          <mxGeometry height="65" width="240" x="840" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="t1_uc04" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=13;fontStyle=0;" value="UC1.4: Thu lệ phí thường niên&#xa;&amp; xuất biên lai thu" vertex="1">
+          <mxGeometry height="60" width="230" x="1160" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="t1_uc05" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=13;fontStyle=1;" value="UC1.5: Đăng ký lịch khám&#xa;định kỳ theo quý" vertex="1">
+          <mxGeometry height="65" width="240" x="750" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="t1_uc06" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=13;fontStyle=1;" value="UC1.6: Cấp số thứ tự khám&#xa;&amp; Phân luồng phòng khám" vertex="1">
+          <mxGeometry height="65" width="250" x="820" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="t1_uc07" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=13;fontStyle=0;" value="UC1.7: Kiểm tra miễn phí khám&#xa;cho lịch định kỳ hợp lệ" vertex="1">
+          <mxGeometry height="60" width="230" x="1180" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="t1_l1" edge="1" parent="1" source="t1_act_bn" style="endArrow=none;html=1;strokeWidth=1.3;" target="t1_uc01">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1_l2" edge="1" parent="1" source="t1_act_bn" style="endArrow=none;html=1;strokeWidth=1.3;" target="t1_uc05">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1_l3" edge="1" parent="1" source="t1_act_bn" style="endArrow=none;html=1;strokeWidth=1.3;" target="t1_uc06">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1_l4" edge="1" parent="1" source="t1_act_nv" style="endArrow=none;html=1;strokeWidth=1.3;" target="t1_uc01">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1_l5" edge="1" parent="1" source="t1_act_nv" style="endArrow=none;html=1;strokeWidth=1.3;" target="t1_uc03">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1_l6" edge="1" parent="1" source="t1_act_nv" style="endArrow=none;html=1;strokeWidth=1.3;" target="t1_uc04">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1_l7" edge="1" parent="1" source="t1_act_nv" style="endArrow=none;html=1;strokeWidth=1.3;" target="t1_uc05">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1_l8" edge="1" parent="1" source="t1_act_nv" style="endArrow=none;html=1;strokeWidth=1.3;" target="t1_uc06">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1_inc_1" edge="1" parent="1" source="t1_uc01" style="html=1;verticalAlign=bottom;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;dashed=1;strokeWidth=1.3;fontFamily=Times New Roman;fontSize=12;fontStyle=2;" target="t1_uc02" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1_inc_2" edge="1" parent="1" source="t1_uc01" style="html=1;verticalAlign=bottom;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;dashed=1;strokeWidth=1.3;fontFamily=Times New Roman;fontSize=12;fontStyle=2;" target="t1_uc03" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1_inc_3" edge="1" parent="1" source="t1_uc03" style="html=1;verticalAlign=bottom;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;dashed=1;strokeWidth=1.3;fontFamily=Times New Roman;fontSize=12;fontStyle=2;" target="t1_uc04" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1_ext_1" edge="1" parent="1" source="t1_uc05" style="html=1;verticalAlign=bottom;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;dashed=1;strokeWidth=1.3;fontFamily=Times New Roman;fontSize=12;fontStyle=2;" target="t1_uc03" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1_ext_2" edge="1" parent="1" source="t1_uc07" style="html=1;verticalAlign=bottom;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;dashed=1;strokeWidth=1.3;fontFamily=Times New Roman;fontSize=12;fontStyle=2;" target="t1_uc06" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Tab2_KhamBenh_LamSang" name="2. Khám bệnh lâm sàng">
+    <mxGraphModel dx="1820" dy="915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t2_title" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=17;fontStyle=1;fontFamily=Times New Roman;" value="SƠ ĐỒ USE CASE PHÂN RÃ: GIAI ĐOẠN 2 - KHÁM BỆNH LÂM SÀNG &amp; CHẨN ĐOÁN SƠ BỘ" vertex="1">
+          <mxGeometry height="40" width="1100" x="400" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="t2_boundary" parent="1" style="shape=rect;html=1;whiteSpace=wrap;align=center;verticalAlign=top;spacingTop=12;fontSize=15;fontStyle=1;fontFamily=Times New Roman;strokeWidth=2;" value="PHÂN HỆ KHÁM BỆNH LÂM SÀNG TẠI PHÒNG KHÁM CHUYÊN KHOA" vertex="1">
+          <mxGeometry height="820" width="1050" x="420" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="t2_act_bn" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontFamily=Times New Roman;fontSize=14;fontStyle=1;" value="Bệnh nhân" vertex="1">
+          <mxGeometry height="80" width="45" x="220" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="t2_act_bs" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontFamily=Times New Roman;fontSize=14;fontStyle=1;" value="Bác sĩ điều trị" vertex="1">
+          <mxGeometry height="80" width="45" x="1620" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="t2_uc01" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=13;fontStyle=1;" value="UC2.1: Tiếp nhận STT &amp;&#xa;vào phòng khám bệnh" vertex="1">
+          <mxGeometry height="65" width="240" x="480" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="t2_uc02" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=13;fontStyle=0;" value="UC2.2: Tra cứu tiền sử bệnh&#xa;&amp; lịch sử các đợt khám cũ" vertex="1">
+          <mxGeometry height="65" width="240" x="880" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="t2_uc03" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=13;fontStyle=1;" value="UC2.3: Thực hiện khám lâm sàng&#xa;&amp; đo các chỉ số sinh hiệu" vertex="1">
+          <mxGeometry height="65" width="250" x="580" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="t2_uc04" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=13;fontStyle=0;" value="UC2.4: Ghi nhận triệu chứng&#xa;lâm sàng vào phiếu khám" vertex="1">
+          <mxGeometry height="65" width="240" x="880" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="t2_uc05" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=13;fontStyle=1;" value="UC2.5: Đưa ra chẩn đoán&#xa;sơ bộ bệnh lý" vertex="1">
+          <mxGeometry height="65" width="240" x="680" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="t2_uc06" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=13;fontStyle=0;" value="UC2.6: Phân loại chỉ định&#xa;cận lâm sàng (nếu cần)" vertex="1">
+          <mxGeometry height="65" width="240" x="1080" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="t2_l1" edge="1" parent="1" source="t2_act_bn" style="endArrow=none;html=1;strokeWidth=1.3;" target="t2_uc01">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t2_l2" edge="1" parent="1" source="t2_act_bn" style="endArrow=none;html=1;strokeWidth=1.3;" target="t2_uc03">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t2_l3" edge="1" parent="1" source="t2_act_bs" style="endArrow=none;html=1;strokeWidth=1.3;" target="t2_uc01">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t2_l4" edge="1" parent="1" source="t2_act_bs" style="endArrow=none;html=1;strokeWidth=1.3;" target="t2_uc02">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t2_l5" edge="1" parent="1" source="t2_act_bs" style="endArrow=none;html=1;strokeWidth=1.3;" target="t2_uc03">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t2_l6" edge="1" parent="1" source="t2_act_bs" style="endArrow=none;html=1;strokeWidth=1.3;" target="t2_uc04">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t2_l7" edge="1" parent="1" source="t2_act_bs" style="endArrow=none;html=1;strokeWidth=1.3;" target="t2_uc05">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t2_l8" edge="1" parent="1" source="t2_act_bs" style="endArrow=none;html=1;strokeWidth=1.3;" target="t2_uc06">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t2_inc_1" edge="1" parent="1" source="t2_uc01" style="html=1;verticalAlign=bottom;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;dashed=1;strokeWidth=1.3;fontFamily=Times New Roman;fontSize=12;fontStyle=2;" target="t2_uc02" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t2_inc_2" edge="1" parent="1" source="t2_uc03" style="html=1;verticalAlign=bottom;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;dashed=1;strokeWidth=1.3;fontFamily=Times New Roman;fontSize=12;fontStyle=2;" target="t2_uc04" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t2_inc_3" edge="1" parent="1" source="t2_uc04" style="html=1;verticalAlign=bottom;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;dashed=1;strokeWidth=1.3;fontFamily=Times New Roman;fontSize=12;fontStyle=2;" target="t2_uc05" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t2_ext_1" edge="1" parent="1" source="t2_uc06" style="html=1;verticalAlign=bottom;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;dashed=1;strokeWidth=1.3;fontFamily=Times New Roman;fontSize=12;fontStyle=2;" target="t2_uc05" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Tab3_XetNghiem_CanLamSang" name="3. Xét nghiệm cận lâm sàng">
+    <mxGraphModel dx="1820" dy="915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t3_title" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=17;fontStyle=1;fontFamily=Times New Roman;" value="SƠ ĐỒ USE CASE PHÂN RÃ: GIAI ĐOẠN 3 - THỰC HIỆN XÉT NGHIỆM CẬN LÂM SÀNG" vertex="1">
+          <mxGeometry height="40" width="1100" x="400" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="t3_boundary" parent="1" style="shape=rect;html=1;whiteSpace=wrap;align=center;verticalAlign=top;spacingTop=12;fontSize=15;fontStyle=1;fontFamily=Times New Roman;strokeWidth=2;" value="PHÂN HỆ CẬN LÂM SÀNG (CHỈ ĐỊNH, LẤY MẪU, XÉT NGHIỆM &amp; TRẢ KẾT QUẢ)" vertex="1">
+          <mxGeometry height="820" width="1050" x="420" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="t3_act_bs" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontFamily=Times New Roman;fontSize=14;fontStyle=1;" value="Bác sĩ điều trị" vertex="1">
+          <mxGeometry height="80" width="45" x="220" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="t3_act_bn" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontFamily=Times New Roman;fontSize=14;fontStyle=1;" value="Bệnh nhân" vertex="1">
+          <mxGeometry height="80" width="45" x="220" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="t3_act_ktv" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontFamily=Times New Roman;fontSize=14;fontStyle=1;" value="Kỹ thuật viên&#xa;Xét nghiệm" vertex="1">
+          <mxGeometry height="80" width="45" x="1620" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="t3_uc01" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=13;fontStyle=1;" value="UC3.1: Chỉ định các danh mục&#xa;xét nghiệm cận lâm sàng" vertex="1">
+          <mxGeometry height="65" width="240" x="480" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="t3_uc02" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=13;fontStyle=1;" value="UC3.2: Tiếp nhận yêu cầu &amp;&#xa;Lấy mẫu bệnh phẩm (Máu/Nước tiểu)" vertex="1">
+          <mxGeometry height="65" width="260" x="780" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="t3_uc03" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=13;fontStyle=1;" value="UC3.3: Vận hành thiết bị &amp;&#xa;Thực hiện kỹ thuật xét nghiệm" vertex="1">
+          <mxGeometry height="65" width="250" x="1190" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="t3_uc04" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=13;fontStyle=0;" value="UC3.4: Nhập chỉ số &amp; Lưu trữ&#xa;kết quả xét nghiệm vào hệ thống" vertex="1">
+          <mxGeometry height="65" width="260" x="940" y="462.5" as="geometry" />
+        </mxCell>
+        <mxCell id="t3_uc05" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=13;fontStyle=0;" value="UC3.5: Cảnh báo chỉ số nguy hiểm&#xa;/ vượt ngưỡng bình thường" vertex="1">
+          <mxGeometry height="60" width="240" x="1080" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="t3_uc06" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=13;fontStyle=1;" value="UC3.6: Bác sĩ xem &amp; Đánh giá&#xa;kết quả xét nghiệm để chẩn đoán" vertex="1">
+          <mxGeometry height="65" width="260" x="520" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="t3_l1" edge="1" parent="1" source="t3_act_bs" style="endArrow=none;html=1;strokeWidth=1.3;" target="t3_uc01">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3_l2" edge="1" parent="1" source="t3_act_bs" style="endArrow=none;html=1;strokeWidth=1.3;" target="t3_uc06">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3_l3" edge="1" parent="1" source="t3_act_bn" style="endArrow=none;html=1;strokeWidth=1.3;" target="t3_uc02">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3_l4" edge="1" parent="1" source="t3_act_ktv" style="endArrow=none;html=1;strokeWidth=1.3;" target="t3_uc02">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3_l5" edge="1" parent="1" source="t3_act_ktv" style="endArrow=none;html=1;strokeWidth=1.3;" target="t3_uc03">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3_l6" edge="1" parent="1" source="t3_act_ktv" style="endArrow=none;html=1;strokeWidth=1.3;" target="t3_uc04">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3_inc_1" edge="1" parent="1" source="t3_uc01" style="html=1;verticalAlign=bottom;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;dashed=1;strokeWidth=1.3;fontFamily=Times New Roman;fontSize=12;fontStyle=2;" target="t3_uc02" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3_inc_2" edge="1" parent="1" source="t3_uc02" style="html=1;verticalAlign=bottom;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;dashed=1;strokeWidth=1.3;fontFamily=Times New Roman;fontSize=12;fontStyle=2;" target="t3_uc03" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3_inc_3" edge="1" parent="1" source="t3_uc03" style="html=1;verticalAlign=bottom;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;dashed=1;strokeWidth=1.3;fontFamily=Times New Roman;fontSize=12;fontStyle=2;" target="t3_uc04" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3_ext_1" edge="1" parent="1" source="t3_uc05" style="html=1;verticalAlign=bottom;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;dashed=1;strokeWidth=1.3;fontFamily=Times New Roman;fontSize=12;fontStyle=2;" target="t3_uc04" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3_inc_4" edge="1" parent="1" source="t3_uc06" style="html=1;verticalAlign=bottom;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;dashed=1;strokeWidth=1.3;fontFamily=Times New Roman;fontSize=12;fontStyle=2;" target="t3_uc04" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Tab4_KeToa_ThanhToan" name="4. Kê toa &amp; Đóng bệnh án">
+    <mxGraphModel dx="1877" dy="944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t4_title" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=17;fontStyle=1;fontFamily=Times New Roman;" value="SƠ ĐỒ USE CASE PHÂN RÃ: GIAI ĐOẠN 4 - KÊ TOA THUỐC, THANH TOÁN VIỆN PHÍ &amp; HOÀN TẤT ĐÓNG BỆNH ÁN" vertex="1">
+          <mxGeometry height="40" width="1200" x="350" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="t4_boundary" parent="1" style="shape=rect;html=1;whiteSpace=wrap;align=center;verticalAlign=top;spacingTop=12;fontSize=15;fontStyle=1;fontFamily=Times New Roman;strokeWidth=2;" value="PHÂN HỆ DƯỢC, VIỆN PHÍ &amp; HOÀN TẤT ĐÓNG BỆNH ÁN" vertex="1">
+          <mxGeometry height="840" width="1120" x="390" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="t4_act_bs" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontFamily=Times New Roman;fontSize=14;fontStyle=1;" value="Bác sĩ điều trị" vertex="1">
+          <mxGeometry height="80" width="45" x="200" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="t4_act_bn" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontFamily=Times New Roman;fontSize=14;fontStyle=1;" value="Bệnh nhân" vertex="1">
+          <mxGeometry height="80" width="45" x="200" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="t4_act_tn" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontFamily=Times New Roman;fontSize=14;fontStyle=1;" value="Nhân viên Thu ngân&#xa;/ Kế toán" vertex="1">
+          <mxGeometry height="80" width="45" x="1650" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="t4_uc01" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=13;fontStyle=1;" value="UC4.1: Chẩn đoán xác định bệnh&#xa;&amp; Quyết định phác đồ điều trị" vertex="1">
+          <mxGeometry height="65" width="250" x="430" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="t4_uc02" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=13;fontStyle=1;" value="UC4.2: Kê toa thuốc điều trị" vertex="1">
+          <mxGeometry height="65" width="240" x="800" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="t4_uc03" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=13;fontStyle=0;" value="UC4.3: Kiểm tra tồn kho dược phẩm&#xa;&amp; Cảnh báo tương tác thuốc" vertex="1">
+          <mxGeometry height="65" width="260" x="1160" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="t4_uc04" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=13;fontStyle=1;" value="UC4.4: In toa thuốc &amp; Dặn dò&#xa;hướng dẫn liều dùng cho bệnh nhân" vertex="1">
+          <mxGeometry height="65" width="260" x="600" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="t4_uc05" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=13;fontStyle=1;" value="UC4.5: Tính &amp; Tổng hợp viện phí&#xa;(Phí khám + Tiền XN + Tiền thuốc)" vertex="1">
+          <mxGeometry height="65" width="260" x="760" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="t4_uc06" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=13;fontStyle=0;" value="UC4.6: Khấu trừ / Miễn phí tiền khám&#xa;theo lịch định kỳ quý hợp lệ" vertex="1">
+          <mxGeometry height="65" width="260" x="1160" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="t4_uc07" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=13;fontStyle=1;" value="UC4.7: Thu tiền viện phí &amp;&#xa;Xuất hóa đơn thanh toán" vertex="1">
+          <mxGeometry height="65" width="250" x="650" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="t4_uc08" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=13;fontStyle=0;" value="UC4.8: Cập nhật trạng thái HoanTat&#xa;&amp; Đóng hồ sơ đợt khám bệnh án" vertex="1">
+          <mxGeometry height="65" width="260" x="1080" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="t4_l1" edge="1" parent="1" source="t4_act_bs" style="endArrow=none;html=1;strokeWidth=1.3;" target="t4_uc01">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t4_l2" edge="1" parent="1" source="t4_act_bs" style="endArrow=none;html=1;strokeWidth=1.3;" target="t4_uc02">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t4_l3" edge="1" parent="1" source="t4_act_bs" style="endArrow=none;html=1;strokeWidth=1.3;" target="t4_uc04">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t4_l4" edge="1" parent="1" source="t4_act_bn" style="endArrow=none;html=1;strokeWidth=1.3;" target="t4_uc04">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t4_l5" edge="1" parent="1" source="t4_act_bn" style="endArrow=none;html=1;strokeWidth=1.3;" target="t4_uc07">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t4_l6" edge="1" parent="1" source="t4_act_tn" style="endArrow=none;html=1;strokeWidth=1.3;" target="t4_uc05">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t4_l7" edge="1" parent="1" source="t4_act_tn" style="endArrow=none;html=1;strokeWidth=1.3;" target="t4_uc07">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t4_l8" edge="1" parent="1" source="t4_act_tn" style="endArrow=none;html=1;strokeWidth=1.3;" target="t4_uc08">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t4_inc_1" edge="1" parent="1" source="t4_uc01" style="html=1;verticalAlign=bottom;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;dashed=1;strokeWidth=1.3;fontFamily=Times New Roman;fontSize=12;fontStyle=2;" target="t4_uc02" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t4_inc_2" edge="1" parent="1" source="t4_uc02" style="html=1;verticalAlign=bottom;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;dashed=1;strokeWidth=1.3;fontFamily=Times New Roman;fontSize=12;fontStyle=2;" target="t4_uc03" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t4_inc_3" edge="1" parent="1" source="t4_uc02" style="html=1;verticalAlign=bottom;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;dashed=1;strokeWidth=1.3;fontFamily=Times New Roman;fontSize=12;fontStyle=2;" target="t4_uc04" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t4_ext_1" edge="1" parent="1" source="t4_uc06" style="html=1;verticalAlign=bottom;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;dashed=1;strokeWidth=1.3;fontFamily=Times New Roman;fontSize=12;fontStyle=2;" target="t4_uc05" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t4_inc_4" edge="1" parent="1" source="t4_uc05" style="html=1;verticalAlign=bottom;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;dashed=1;strokeWidth=1.3;fontFamily=Times New Roman;fontSize=12;fontStyle=2;" target="t4_uc07" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t4_inc_5" edge="1" parent="1" source="t4_uc07" style="html=1;verticalAlign=bottom;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;dashed=1;strokeWidth=1.3;fontFamily=Times New Roman;fontSize=12;fontStyle=2;" target="t4_uc08" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

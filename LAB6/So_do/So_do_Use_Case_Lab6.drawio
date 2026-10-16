@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" agent="Antigravity OOSD System">
+  <diagram id="UC_Lab6_TongQuat" name="Sơ đồ Use Case Tổng quát">
+    <mxGraphModel dx="1447" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1600" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sys_boundary" parent="1" style="shape=rect;html=1;whiteSpace=wrap;align=center;verticalAlign=top;spacingTop=15;fontSize=16;fontStyle=1;fontFamily=Times New Roman;strokeWidth=2;" value="HỆ THỐNG QUẢN LÝ HỒ SƠ BỆNH ÁN BỆNH NHÂN" vertex="1">
+          <mxGeometry height="910" width="1050" x="475" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="act_BenhNhan" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontFamily=Times New Roman;fontSize=14;fontStyle=1;" value="Bệnh nhân" vertex="1">
+          <mxGeometry height="85" width="45" x="250" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="act_NVTiepNhan" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontFamily=Times New Roman;fontSize=14;fontStyle=1;" value="Nhân viên&#xa;Tiếp nhận &amp; CSKH" vertex="1">
+          <mxGeometry height="85" width="45" x="250" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="act_BacSi" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontFamily=Times New Roman;fontSize=14;fontStyle=1;" value="Bác sĩ điều trị" vertex="1">
+          <mxGeometry height="85" width="45" x="1700" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="act_ThuNgan" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontFamily=Times New Roman;fontSize=14;fontStyle=1;" value="Nhân viên Thu ngân&#xa;/ Kế toán" vertex="1">
+          <mxGeometry height="85" width="45" x="1700" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="uc01" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=13;fontStyle=1;" value="UC01: Đăng ký thông tin&#xa;bệnh nhân" vertex="1">
+          <mxGeometry height="65" width="230" x="510" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="uc02" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=13;fontStyle=1;" value="UC02: Cấp hồ sơ bệnh án mới" vertex="1">
+          <mxGeometry height="65" width="230" x="680" y="675" as="geometry" />
+        </mxCell>
+        <mxCell id="uc03" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=13;fontStyle=1;" value="UC03: Thu lệ phí thường niên&#xa;&amp; Gia hạn hồ sơ" vertex="1">
+          <mxGeometry height="65" width="230" x="530" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="uc04" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=13;fontStyle=1;" value="UC04: Đăng ký lịch khám&#xa;định kỳ theo quý" vertex="1">
+          <mxGeometry height="65" width="230" x="520" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=13;fontStyle=1;" value="UC05: Tra cứu lịch sử&#xa;hồ sơ bệnh án" vertex="1">
+          <mxGeometry height="65" width="230" x="875" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="uc06" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=13;fontStyle=1;" value="UC06: Khám bệnh lâm sàng&#xa;&amp; Ghi nhận triệu chứng" vertex="1">
+          <mxGeometry height="65" width="240" x="1220" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="uc07" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=13;fontStyle=1;" value="UC07: Chỉ định xét nghiệm&#xa;cận lâm sàng" vertex="1">
+          <mxGeometry height="65" width="240" x="1210" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="uc08" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=13;fontStyle=1;" value="UC08: Cập nhật &amp; Xem&#xa;kết quả xét nghiệm" vertex="1">
+          <mxGeometry height="80" width="240" x="1170" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="uc09" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=13;fontStyle=1;" value="UC09: Kê toa thuốc điều trị" vertex="1">
+          <mxGeometry height="65" width="240" x="1200" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="uc10" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=13;fontStyle=1;" value="UC10: Tính &amp; Thu tiền&#xa;thanh toán viện phí" vertex="1">
+          <mxGeometry height="65" width="240" x="1220" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="uc11" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=13;fontStyle=1;" value="UC11: Báo cáo thống kê &amp;&#xa;Cập nhật đóng bệnh án" vertex="1">
+          <mxGeometry height="75" width="260" x="860" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="lnk_bn_1" edge="1" parent="1" source="act_BenhNhan" style="endArrow=none;html=1;strokeWidth=1.3;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="uc01">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lnk_bn_3" edge="1" parent="1" source="act_BenhNhan" style="endArrow=none;html=1;strokeWidth=1.3;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="uc03">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lnk_bn_4" edge="1" parent="1" source="act_BenhNhan" style="endArrow=none;html=1;strokeWidth=1.3;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="uc04">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lnk_nv_1" edge="1" parent="1" source="act_NVTiepNhan" style="endArrow=none;html=1;strokeWidth=1.3;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="uc01">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lnk_nv_2" edge="1" parent="1" source="act_NVTiepNhan" style="endArrow=none;html=1;strokeWidth=1.3;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="uc02">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lnk_nv_3" edge="1" parent="1" source="act_NVTiepNhan" style="endArrow=none;html=1;strokeWidth=1.3;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="uc03">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lnk_nv_4" edge="1" parent="1" source="act_NVTiepNhan" style="endArrow=none;html=1;strokeWidth=1.3;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="uc04">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lnk_nv_5" edge="1" parent="1" source="act_NVTiepNhan" style="endArrow=none;html=1;strokeWidth=1.3;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="uc05">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lnk_nv_11" edge="1" parent="1" source="act_NVTiepNhan" style="endArrow=none;html=1;strokeWidth=1.3;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="uc11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lnk_bs_5" edge="1" parent="1" source="act_BacSi" style="endArrow=none;html=1;strokeWidth=1.3;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="uc05">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lnk_bs_6" edge="1" parent="1" source="act_BacSi" style="endArrow=none;html=1;strokeWidth=1.3;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="uc06">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lnk_bs_7" edge="1" parent="1" source="act_BacSi" style="endArrow=none;html=1;strokeWidth=1.3;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="uc07">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lnk_bs_8" edge="1" parent="1" source="act_BacSi" style="endArrow=none;html=1;strokeWidth=1.3;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="uc08">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lnk_bs_9" edge="1" parent="1" source="act_BacSi" style="endArrow=none;html=1;strokeWidth=1.3;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="uc09">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lnk_tn_10" edge="1" parent="1" source="act_ThuNgan" style="endArrow=none;html=1;strokeWidth=1.3;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="uc10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lnk_tn_11" edge="1" parent="1" source="act_ThuNgan" style="endArrow=none;html=1;strokeWidth=1.3;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="uc11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
