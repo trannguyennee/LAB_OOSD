@@ -21,7 +21,7 @@ Dự án được xây dựng bám sát quy trình phân tích và thiết kế 
 ---
 
 ## 2. CẤU TRÚC THƯ MỤC
-`	ext
+```text
 LAB7/
 ├── 1250080121_Tran_Nguyen_Lab7.docx      # Báo cáo Word hoàn chỉnh 6 câu bài Lab 07
 ├── Bai_7_Quan_ly_nhan_su.docx            # Đề bài gốc Lab 07 - Công ty Sơn Đông Á
@@ -51,15 +51,15 @@ LAB7/
 │           └── FrmKhenThuongKyLuat.cs    # Lập quyết định khen thưởng / kỷ luật
 ├── QuanLyNhanSu_Database.sql
 └── README.md
-`
+```
 
 ---
 
 ## 3. HƯỚNG DẪN CÀI ĐẶT & CHẠY
 1. **Cơ sở dữ liệu:**
-   - Mở file Database/QuanLyNhanSu_Database.sql trong SQL Server Management Studio (SSMS).
-   - Nhấn **Execute** (F5) để khởi tạo CSDL QuanLyNhanSu_SonDongA và nạp toàn bộ dữ liệu mẫu.
+   - Mở file `Database/QuanLyNhanSu_Database.sql` trong SQL Server Management Studio (SSMS).
+   - Nhấn **Execute** (F5) để khởi tạo CSDL `QuanLyNhanSu_SonDongA` và nạp toàn bộ dữ liệu mẫu.
 2. **Ứng dụng:**
-   - Mở file QuanLyNhanSu/QuanLyNhanSu.sln bằng **Visual Studio 2022**.
-   - Kiểm tra chuỗi kết nối trong App.config (mặc định: Data Source=.;Initial Catalog=QuanLyNhanSu_SonDongA;Integrated Security=True).
-   - Nhấn **Start** (F5) hoặc Ctrl + F5 để khởi chạy phần mềm.
+   - Mở file `QuanLyNhanSu/QuanLyNhanSu.sln` bằng **Visual Studio 2022**.
+   - Kiểm tra chuỗi kết nối trong `App.config` (mặc định: `Data Source=.;Initial Catalog=QuanLyNhanSu_SonDongA;Integrated Security=True`).
+   - Nhấn **Start** (F5) hoặc `Ctrl + F5` để khởi chạy phần mềm.
