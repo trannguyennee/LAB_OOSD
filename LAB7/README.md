@@ -49,7 +49,6 @@ LAB7/
 │           ├── FrmChamCong.cs            # Bảng chấm công vân tay
 │           ├── FrmBangLuong.cs           # Bảng tính lương & Phụ cấp độc hại
 │           └── FrmKhenThuongKyLuat.cs    # Lập quyết định khen thưởng / kỷ luật
-├── QuanLyNhanSu_Database.sql
 └── README.md
 ```
 
