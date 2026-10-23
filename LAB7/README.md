@@ -23,8 +23,10 @@ Dự án được xây dựng bám sát quy trình phân tích và thiết kế 
 ## 2. CẤU TRÚC THƯ MỤC
 `	ext
 LAB7/
+├── 1250080121_Tran_Nguyen_Lab7.docx      # Báo cáo Word hoàn chỉnh 6 câu bài Lab 07
+├── Bai_7_Quan_ly_nhan_su.docx            # Đề bài gốc Lab 07 - Công ty Sơn Đông Á
 ├── Database/
-│   └── QuanLyNhanSu_Database.sql         # Kịch bản tạo CSDL 18 bảng chuẩn 3NF, seed data và Stored Procedures
+│   └── QuanLyNhanSu_Database.sql         # Script CSDL 18 bảng chuẩn 3NF, seed data và Stored Procedures
 ├── QuanLyNhanSu/                         # Giải pháp WinForms C# (.NET Framework 4.7.2)
 │   ├── QuanLyNhanSu.sln                  # File Visual Studio Solution
 │   └── QuanLyNhanSu/
@@ -42,7 +44,7 @@ LAB7/
 │       └── Forms/                        # 7 Màn hình giao diện chức năng
 │           ├── FrmMain.cs                # Màn hình Menu chính (Dashboard)
 │           ├── FrmNhanVien.cs            # Quản lý hồ sơ nhân viên
-│           ├── FrmHopDong.cs             # Hợp đồng & Bảo hiểm
+│           ├── FrmHopDongBaoHiem.cs      # Hợp đồng & Bảo hiểm
 │           ├── FrmPhanCaPhuTroi.cs       # Phân ca làm việc & Đăng ký phụ trội
 │           ├── FrmChamCong.cs            # Bảng chấm công vân tay
 │           ├── FrmBangLuong.cs           # Bảng tính lương & Phụ cấp độc hại
