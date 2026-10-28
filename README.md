@@ -1,102 +1,21 @@
-# PHƯƠNG PHÁP PHÁT TRIỂN PHẦN MỀM HƯỚNG ĐỐI TƯỢNG (OOSD)
-**Trường Đại học Tài nguyên và Môi trường TP. Hồ Chí Minh (HCMUNRE)**  
-**Khoa Công nghệ Thông tin**
-
----
+# BÀI TẬP THỰC HÀNH PHƯƠNG PHÁP PHÁT TRIỂN PHẦN MỀM HƯỚNG ĐỐI TƯỢNG (OOSD)
 
 ### Thông tin sinh viên
 - **Họ và tên:** Trần Nguyên
 - **Mã số sinh viên (MSSV):** 1250080121
-- **Lớp:** 12CNPM2
-- **Giảng viên hướng dẫn:** Thầy Huynh
+- **Lớp:** 12_ĐH_CNPM2
+- **Trường:** Đại học Công nghệ TP.HCM (HUTECH)
+- **Giảng viên hướng dẫn:** ThS. Phạm Trọng Huynh
 
 ---
 
-### Cấu trúc Repository
-
-```text
-LAB_OOSD/
-├── LAB0/
-│   ├── README.md
-│   ├── docs/
-│   │   └── LAB_001250080121_Trần Nguyên.docx
-│   ├── evidence/ (Ảnh chụp minh chứng môi trường, Git, Maven, PlantUML)
-│   ├── src/ (Mã nguồn Starter Project Java)
-│   ├── uml/ (Sơ đồ PlantUML)
-│   ├── environment.txt
-│   └── pom.xml
-├── LAB1/
-│   ├── README.md
-│   ├── LAB1_BAI_1_1250080121_Tran_Nguyen_12CNPM2.docx
-│   └── LAB1_BAI_2_1250080121_Tran_Nguyen_12CNPM2.docx
-├── LAB2/
-│   ├── README.md
-│   ├── Database/
-│   │   └── QuanLyThuVien.sql
-│   ├── QuanLyThuVien/
-│   │   ├── QuanLyThuVien.sln
-│   │   └── QuanLyThuVien/
-│   │       ├── Data/
-│   │       ├── Services/
-│   │       ├── Forms/
-│   │       ├── Models.cs
-│   │       └── Program.cs
-│   ├── QuanLyThuVien_ThietKeGiaoDien_14UC.xlsx
-│   ├── LAB2_He_thong_quan_ly_thu_vien.pdf
-│   └── Sơ đồ thiết kế (Activity, Sequence, GUI Mockup)
-├── LAB3/
-│   ├── README.md
-│   ├── Database/
-│   │   └── QuanLyKhachSan.sql
-│   ├── QuanLyKhachSan/
-│   │   ├── QuanLyKhachSan.sln
-│   │   └── QuanLyKhachSan/
-│   │       ├── Data/
-│   │       ├── Services/
-│   │       ├── Forms/
-│   │       └── Program.cs
-│   └── Bai_3_He_thong_quan_ly_khach_san.pdf
-└── LAB4/
-    ├── README.md
-    ├── Database/
-    │   └── eShopping_Database.sql
-    ├── eShopping/
-    │   ├── eShopping.sln
-    │   └── eShopping/
-    │       ├── Data/
-    │       ├── Services/
-    │       ├── Forms/
-    │       └── Program.cs
-    └── Docs/
-        ├── Trần Nguyên.docx
-        ├── Bai_9_GOC.docx
-        └── Images/ (Các sơ đồ phân tích UML)
-```
-
----
-
-### 📌 Danh mục bài thực hành
-0. **[LAB 0](./LAB0/):** Cài đặt và cấu hình môi trường phát triển:
-   - Cài đặt Oracle JDK 24, Apache Maven 3.9, Git 2.52, IntelliJ IDEA và plugin PlantUML.
-   - Thiết lập biến môi trường hệ thống (`JAVA_HOME`, `MAVEN_HOME`, `PATH`).
-   - Biên dịch, kiểm thử JUnit 5 và đóng gói Starter Project thành file JAR (`mvn clean test package`).
-1. **[LAB 1](./LAB1/):** Phân tích và thiết kế hướng đối tượng:
-   - Bài 1: Hệ thống thư viện trực tuyến.
-   - Bài 2: Hệ thống quản lý bệnh viện.
-2. **[LAB 2](./LAB2/):** Hệ thống Quản lý Thư viện hoàn chỉnh:
-   - Kiến trúc 3 lớp (3-Layer Architecture): Presentation (WinForms), Business Logic (Services), Data Access (ADO.NET Db).
-   - Cơ sở dữ liệu SQL Server với 9 bảng và các ràng buộc toàn vẹn nghiêm ngặt.
-   - 6 Form giao diện chuẩn hóa: `FrmMain`, `FrmDanhMuc`, `FrmSach`, `FrmDocGia`, `FrmMuonTra`, `FrmThongKe`.
-   - Vượt qua 100% 14 Test Case bắt buộc của đề bài.
-3. **[LAB 3](./LAB3/):** Hệ thống Quản lý Khách sạn hoàn chỉnh:
-   - Kiến trúc 3 lớp (3-Layer Architecture): Presentation (WinForms), Business Logic (Services), Data Access (ADO.NET Db).
-   - Cơ sở dữ liệu SQL Server với 18 bảng chuẩn hóa, bảo toàn tính toàn vẹn dữ liệu.
-   - 7 Form giao diện chuẩn 100% theo bản vẽ của Thầy Huỳnh Kòm: `FrmMain`, `FrmDanhMuc`, `FrmPhongTienNghi`, `FrmDatPhong`, `FrmDichVu`, `FrmTraPhong`, `FrmThongKe`.
-   - Vượt qua 100% 15 Test Case bắt buộc của đề bài.
-4. **[LAB 4](./LAB4/):** Hệ thống Cửa hàng trực tuyến "e-SHOPPING":
-   - Phân tích và mô hình hóa hướng đối tượng UML toàn diện: Sơ đồ Use Case tổng quát & chi tiết, Bảng đặc tả Use Case, Sơ đồ lớp phân tích, Biểu đồ hoạt động phân làn, Biểu đồ tuần tự có Activation Bar, Biểu đồ trạng thái vòng đời đơn hàng.
-   - Cơ sở dữ liệu SQL Server `eShoppingDB` gồm 6 bảng chuẩn hóa quan hệ kế thừa và hợp thành.
-   - Ứng dụng C# WinForms kiến trúc 3 lớp theo mô hình Dashboard điều hướng của Thầy (`FrmMain`), màn hình mua sắm giỏ hàng (`FrmTrangChu`), lập phiếu đặt hàng & thanh toán thẻ tín dụng trực tuyến (`FrmDatHang`), và tra cứu lịch sử đơn hàng (`FrmLichSuDonHang`).
-   - Cài đặt đầy đủ chính sách miễn phí vận chuyển tự động và xác thực thẻ tín dụng ngân hàng (Visa, MasterCard, American Express).
-   - Vượt qua 100% 17 Test Case hệ thống bắt buộc.
-
+### Danh mục các bài Lab
+- [x] **[LAB 0: Cài đặt và kiểm tra môi trường](LAB0/)**
+- [x] **[LAB 1: Phân tích & Thiết kế Hướng đối tượng - Cửa hàng nước giải khát & Thư viện](LAB1/)**
+- [x] **[LAB 2: Phân tích yêu cầu và đặc tả Use Case nâng cao](LAB2/)**
+- [x] **[LAB 3: Xây dựng mô hình lớp (Class Diagram) và mô hình trạng thái](LAB3/)**
+- [x] **[LAB 4: Thiết kế kiến trúc phần mềm và biểu đồ tuần tự (Sequence Diagram)](LAB4/)**
+- [x] **[LAB 5: Hiện thực CSDL và WinForms 3 lớp - Công ty Du lịch Văn Hóa Việt](LAB5/)**
+- [x] **[LAB 6: Thiết kế kiến trúc phân tầng & Kiểm thử đơn vị (Unit Test)](LAB6/)**
+- [x] **[LAB 7: Hoàn thiện mô hình phân tích thiết kế hệ thống phần mềm](LAB7/)**
+- [x] **[LAB 8: Hiện thực CSDL SQL Server & C# WinForms 3 lớp - Cửa hàng Nước Giải Khát](LAB8/)**
