@@ -108,6 +108,8 @@ LAB5/
 └── README.MD
 ```
 
+Các sơ đồ draw.io cũng được lưu tại thư mục [`IMAGES/LAB5/`](../IMAGES/LAB5/) (bản nền trắng – chữ đen dùng trong báo cáo).
+
 ---
 
 ## 5. HƯỚNG DẪN CÀI ĐẶT & CHẠY

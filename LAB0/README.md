@@ -49,10 +49,9 @@ Lab00_1250080121_TranNguyen/
 │   ├── main/java/vn/edu/hcmunre/library/app/Main.java
 │   └── test/java/vn/edu/hcmunre/library/app/MainTest.java
 ├── evidence/
-│   ├── screenshots/
-│   └── logs/
-├── docs/
-└── uml/
+│   └── screenshots/    # 6 ảnh minh chứng (cũng có trong IMAGES/LAB0/)
+└── docs/
+    └── LAB_001250080121_Trần Nguyên.docx   # Báo cáo Word
 ```
 
 ---
@@ -79,7 +78,7 @@ Trong quá trình thiết lập và chạy thử nghiệm môi trường, sinh v
 ## 5. Tự đánh giá hoàn thành (Checklist)
 - [x] Đầy đủ cấu hình JDK, Maven, Git, IntelliJ và PlantUML.
 - [x] Dự án biên dịch và chạy thành công qua cả IntelliJ IDEA Run button và Maven CLI (`mvn clean test package`).
-- [x] Đã lưu trữ toàn bộ ảnh chụp màn hình minh chứng tại `evidence/screenshots/` và log lệnh tại `evidence/logs/`.
+- [x] Đã lưu trữ toàn bộ ảnh chụp màn hình minh chứng tại `evidence/screenshots/` (bản sao trong `IMAGES/LAB0/`).
 - [x] Đã khởi tạo Git repository cục bộ và commit dự án đúng quy ước.
 - [x] Tuân thủ quy định dọn dẹp thư mục tạm (`target/`) trước khi đóng gói nộp bài.
 

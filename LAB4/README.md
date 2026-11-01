@@ -13,6 +13,18 @@
 
 ---
 
+### Tài liệu và sơ đồ
+- **Báo cáo Word:** `Docs/LAB4_1250080121_Tran_Nguyen_12CNPM2.docx` – bối cảnh, chức năng, use case model và đặc tả, sơ đồ lớp phân tích, hoạt động, tuần tự, CSDL, giao diện và test case.
+- **Đề bài gốc:** `Docs/Bai_9_GOC.docx`.
+- **Sơ đồ draw.io:** thư mục [`IMAGES/LAB4/`](../IMAGES/LAB4/)
+  - `So_do_Use_Case_Tong_Quat.drawio` – Use Case tổng quát hệ thống e-SHOPPING
+  - `So_do_Use_Case_Dat_Hang_Thanh_Toan.drawio` – Use Case phân hệ đặt hàng & thanh toán
+  - `So_do_Class_Diagram_eShopping.drawio` – Biểu đồ lớp phân tích (6 lớp, khớp 6 bảng CSDL)
+  - `So_do_Activity_Diagram_DatHang.drawio` – Quy trình lập phiếu đặt hàng và thanh toán
+  - `So_do_Sequence_Diagram_DatHang.drawio` – Lập phiếu đặt hàng và thanh toán qua thẻ tín dụng (15 thông điệp)
+
+---
+
 ### Kiến trúc hệ thống 3 lớp (3-Layer Architecture)
 Hệ thống được thiết kế và triển khai chặt chẽ theo mô hình phân tầng chuẩn mực trong công nghệ phần mềm trên nền tảng **.NET Framework 4.7.2 (Visual Studio 2022)** kết nối **Microsoft SQL Server**:
 

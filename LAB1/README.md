@@ -4,7 +4,7 @@
 - **Sinh viên thực hiện:** Trần Nguyên
 - **Mã số sinh viên (MSSV):** 1250080121
 - **Lớp:** 12_ĐH_CNPM2
-- **Trường:** Đại học Công nghệ TP.HCM (HUTECH)
+- **Trường:** Đại học Tài nguyên và Môi trường TP. Hồ Chí Minh (HCMUNRE)
 - **Môn học:** Phương pháp phát triển phần mềm hướng đối tượng (OOSD)
 - **Giảng viên hướng dẫn:** ThS. Phạm Trọng Huynh
 
@@ -32,3 +32,15 @@
      - Câu 5: Activity Diagram 4 làn bơi (Khách hàng, Nhân viên, Kho/Giao hàng, Hệ thống).
      - Câu 6: Sequence Diagram nghiệp vụ Lập phiếu ghi nợ cho khách quen.
    - **Ma trận truy vết yêu cầu (Traceability Matrix):** Truy vết từ Yêu cầu -> UML -> Form/Service -> Bảng CSDL -> Test Case phục vụ trực tiếp cho Lab 8.
+
+---
+
+### Sơ đồ draw.io (thư mục `IMAGES/LAB1/`)
+| File | Nội dung |
+|---|---|
+| `Bai1_So_do_Use_Case_Thu_Vien.drawio` | Bài 1 – Use Case Diagram hệ thống Thư viện trực tuyến |
+| `Bai2_So_do_Use_Case_Lab1_Cau1.drawio` | Bài 2 – Câu 1: Use Case Diagram tổng quát (11 Use Case) |
+| `Bai2_So_do_Class_Diagram_Lab1_Cau3.drawio` | Bài 2 – Câu 3: Class Diagram thiết kế chi tiết (13 lớp, thuộc tính khớp CSDL LAB 8) |
+| `Bai2_So_do_Use_Case_Phan_Ra_Cau4.drawio` | Bài 2 – Câu 4: Use Case Diagram phân rã (UC4.1 – UC4.12) |
+| `Bai2_So_do_Activity_Diagram_Cau5.drawio` | Bài 2 – Câu 5: Activity Diagram 4 làn bơi |
+| `Bai2_So_do_Sequence_Diagram_Cau6.drawio` | Bài 2 – Câu 6: Sequence Diagram "Lập phiếu ghi nợ" (21 thông điệp) |

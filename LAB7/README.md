@@ -20,7 +20,19 @@ Dự án được xây dựng bám sát quy trình phân tích và thiết kế 
 
 ---
 
-## 2. CẤU TRÚC THƯ MỤC
+## 2. BÁO CÁO, SƠ ĐỒ VÀ CƠ SỞ DỮ LIỆU
+- **Báo cáo Word:** `1250080121_Tran_Nguyen_Lab7.docx` – tóm tắt phân tích (IPO, tác nhân, quy tắc nghiệp vụ, FR/NFR) và 6 câu hỏi.
+- **Sơ đồ draw.io:** thư mục [`IMAGES/LAB7/`](../IMAGES/LAB7/)
+  - `So_do_Class_Diagram_Lab7.drawio` – Câu 1–2: biểu đồ lớp (2 trang: phân tích, thiết kế chi tiết)
+  - `So_do_Use_Case_Lab7.drawio` – Câu 3: Use Case tổng quát
+  - `So_do_Use_Case_Phan_Ra_Cau4.drawio` – Câu 4: Use Case phân rã 4 giai đoạn (tiếp nhận & thử việc, đánh giá thử việc, ký HĐLĐ, bảo hiểm & đãi ngộ)
+  - `So_do_Activity_Diagram_Cau5.drawio` – Câu 5: quy trình tiếp nhận thử việc, đánh giá, ký HĐLĐ và thiết lập đãi ngộ
+  - `So_do_Sequence_Diagram_Cau6.drawio` – Câu 6: nghiệp vụ "Lập quyết định khen thưởng"
+- **CSDL `QuanLyNhanSu_SonDongA`:** 18 bảng (phòng ban, chức vụ, nhân viên, quyết định tuyển dụng, hợp đồng, bảo hiểm, quyết định chức vụ/lương, phân ca, phụ trội, chấm công, khen thưởng, kỷ luật, bảng lương) và 2 stored procedure `sp_LapQuyetDinhKhenThuong`, `sp_TinhBangLuongThang`.
+
+---
+
+## 3. CẤU TRÚC THƯ MỤC
 ```text
 LAB7/
 ├── 1250080121_Tran_Nguyen_Lab7.docx      # Báo cáo Word hoàn chỉnh 6 câu bài Lab 07
@@ -54,7 +66,7 @@ LAB7/
 
 ---
 
-## 3. HƯỚNG DẪN CÀI ĐẶT & CHẠY
+## 4. HƯỚNG DẪN CÀI ĐẶT & CHẠY
 1. **Cơ sở dữ liệu:**
    - Mở file `Database/QuanLyNhanSu_Database.sql` trong SQL Server Management Studio (SSMS).
    - Nhấn **Execute** (F5) để khởi tạo CSDL `QuanLyNhanSu_SonDongA` và nạp toàn bộ dữ liệu mẫu.

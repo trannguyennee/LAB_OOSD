@@ -67,21 +67,21 @@ Hệ thống được chuẩn hóa thành 16 lớp đối tượng chia theo 4 p
 
 #### Câu 6: Biểu đồ tuần tự (Sequence Diagram)
 - File mô hình: So_do/So_do_Sequence_Diagram_Cau6.drawio
-- Mô hình hóa chi tiết nghiệp vụ "Khám bệnh, xét nghiệm, kê toa và hoàn tất thanh toán đợt khám" theo mô hình 3 lớp Boundary - Control - Entity (BCE):
-  * Actor: BacSi, NhanVienThuNgan
-  * Boundary: FrmKhamBenh, FrmThanhToan
-  * Control: KhamBenhService, ThanhToanService
-  * Entity: HoSoBenhAn, PhieuKhamBenh, ChiDinhXetNghiem, ToaThuoc, HoaDonVienPhi
-  * 26 thông điệp nghiệp vụ liên tục, khung loop kê thuốc, alt rẽ nhánh kiểm tra xét nghiệm và transaction commit thanh toán viện phí an toàn.
+- Mô hình hóa nghiệp vụ "Lập toa thuốc" điều trị cho bệnh nhân theo mô hình Boundary - Control - Entity (BCE):
+  * Actor: BacSiDieuTri
+  * Boundary: FrmKhamBenh_KeToa
+  * Control: KhamBenhService
+  * Entity: Thuoc, ToaThuoc, ChiTietToaThuoc, PhieuKham, BenhNhan
+  * 26 thông điệp, có khung loop thêm từng loại thuốc vào toa; đối chiếu chẩn đoán và tiền sử dị ứng của bệnh nhân trước khi kê.
 
 #### Câu 7: Cơ sở dữ liệu SQL Server (QuanLyHoSoBenhAnDB)
 - File script: Database/QuanLyHoSoBenhAn_Database.sql
-- Thiết kế 12 bảng chuẩn hóa bậc 3 (3NF) có khóa chính (PRIMARY KEY), khóa ngoại (FOREIGN KEY) và ràng buộc duy nhất (UNIQUE SoCCCD).
+- Thiết kế 14 bảng chuẩn hóa bậc 3 (3NF) có khóa chính (PRIMARY KEY), khóa ngoại (FOREIGN KEY) và ràng buộc duy nhất (UNIQUE SoCCCD).
 - Hỗ trợ lưu trữ tiếng Việt có dấu 100% bằng kiểu dữ liệu NVARCHAR và bảng mã UTF-8 BOM.
 - Xây dựng 3 Stored Procedure cốt lõi kết hợp Transaction (BEGIN TRAN, COMMIT, ROLLBACK):
-  * sp_DangKyBenhNhanVaCapHoSo: Thực thi đồng thời thêm bệnh nhân, thu lệ phí năm, tạo hồ sơ bệnh án và lên lịch khám 4 quý.
-  * sp_GhiNhanKhamBenhVaToaThuoc: Ghi nhận phiếu khám, kết quả cận lâm sàng và toa thuốc chi tiết.
-  * sp_ThanhToanVienPhiVaDongHoSo: Tính tổng viện phí, trừ tiền miễn giảm định kỳ, xuất hóa đơn và khóa đóng đợt khám an toàn.
+  * sp_DangKyVaCapHoSoBenhAn: Thực thi đồng thời thêm bệnh nhân, thu lệ phí năm, tạo hồ sơ bệnh án và lên lịch khám 4 quý.
+  * sp_KhamBenhChiDinhVaKeToa: Ghi nhận phiếu khám, kết quả cận lâm sàng và toa thuốc chi tiết.
+  * sp_ThanhToanVienPhiVaDongBenhAn: Tính tổng viện phí, trừ tiền miễn giảm định kỳ, xuất hóa đơn và khóa đóng đợt khám an toàn.
 
 #### Câu 8: Ứng dụng WinForms C# (.NET Framework 4.7.2)
 - Thư mục dự án: QuanLyHoSoBenhAn/
@@ -101,18 +101,14 @@ Hệ thống được chuẩn hóa thành 16 lớp đối tượng chia theo 4 p
 LAB6/
 ├── README.md                                 # Tài liệu tổng quan chi tiết bài Lab 6
 ├── 1250080121_Tran_Nguyen_Lab6.docx          # Báo cáo Word thuyết minh chi tiết Lab 6
-├── QuanLyHoSoBenhAn_Database.sql             # Script khởi tạo CSDL SQL Server có Transaction
 ├── Database/
-│   └── QuanLyHoSoBenhAn_Database.sql         # Bản lưu trữ CSDL SQL Server
-├── Docs/
-│   ├── 1250080121_Tran_Nguyen_Lab6.docx      # Bản lưu trữ báo cáo Word
-│   └── Bai_5_Quan_ly_ho_so_benh_an.pdf       # Đề bài gốc Bài 5 của giảng viên
+│   └── QuanLyHoSoBenhAn_Database.sql         # Script khởi tạo CSDL SQL Server có Transaction
 ├── So_do/
 │   ├── So_do_Class_Diagram_Lab6.drawio       # Sơ đồ Class Diagram (2 Tab: Phân tích & Thiết kế)
 │   ├── So_do_Use_Case_Lab6.drawio            # Sơ đồ Use Case tổng quát (4 Actor, 11 Use Case)
 │   ├── So_do_Use_Case_Phan_Ra_Cau4.drawio    # Sơ đồ Use Case phân rã 4 giai đoạn (4 Tab)
 │   ├── So_do_Activity_Diagram_Cau5.drawio    # Sơ đồ Activity Diagram 4 làn bơi
-│   └── So_do_Sequence_Diagram_Cau6.drawio    # Sơ đồ Sequence Diagram BCE 26 thông điệp
+│   └── So_do_Sequence_Diagram_Cau6.drawio    # Sơ đồ Sequence Diagram "Lập toa thuốc" (26 thông điệp)
 └── QuanLyHoSoBenhAn/                         # Dự án WinForms C# .NET Framework 4.7.2
     ├── QuanLyHoSoBenhAn.sln                  # File Solution Visual Studio
     └── QuanLyHoSoBenhAn/                     # Project mã nguồn C#
@@ -141,7 +137,7 @@ LAB6/
 #### 4.1. Khởi tạo Cơ sở dữ liệu SQL Server
 1. Mở SQL Server Management Studio (SSMS) và kết nối vào máy chủ SQL Server của bạn (ví dụ: localhost hoặc .).
 2. Mở file `Database/QuanLyHoSoBenhAn_Database.sql`.
-3. Nhấn F5 (Execute) để tự động tạo cơ sở dữ liệu `QuanLyHoSoBenhAnDB`, tạo 12 bảng dữ liệu kèm các ràng buộc toàn vẹn, các Stored Procedure có Transaction và nạp sẵn dữ liệu mẫu tiếng Việt chuẩn.
+3. Nhấn F5 (Execute) để tự động tạo cơ sở dữ liệu `QuanLyHoSoBenhAnDB`, tạo 14 bảng dữ liệu kèm các ràng buộc toàn vẹn, các Stored Procedure có Transaction và nạp sẵn dữ liệu mẫu tiếng Việt chuẩn.
 
 #### 4.2. Mở và biên dịch ứng dụng WinForms
 1. Khởi động Visual Studio 2022 (hoặc VS 2019).
@@ -154,3 +150,4 @@ LAB6/
 1. Truy cập trang web trực tuyến https://app.diagrams.net (Draw.io) hoặc mở phần mềm Draw.io Desktop.
 2. Chọn Open Existing Diagram và duyệt đến các file tương ứng trong thư mục `So_do/`.
 3. Có thể chuyển đổi qua lại giữa các Tab (trang) trong các file có nhiều phân rã hoặc phân tích/thiết kế chi tiết.
+4. Bản nền trắng – chữ đen của các sơ đồ (dùng trong báo cáo) được lưu tại thư mục `IMAGES/LAB6/`.

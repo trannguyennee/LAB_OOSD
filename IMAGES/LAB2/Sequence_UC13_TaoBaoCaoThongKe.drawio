@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net" agent="draw.io" version="24.7.17">
+  <diagram id="Sequence_UC13_TaoBaoCaoThongKe" name="Sequence_UC13_TaoBaoCaoThongKe">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1381" pageHeight="567" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c1" value="SƠ ĐỒ TUẦN TỰ - UC13: TẠO BÁO CÁO THỐNG KÊ" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=16;fontStyle=1;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="0" y="10" width="1381" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" value="Thủ thư" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;fontSize=12;fillColor=#ffffff;strokeColor=#000000;labelBackgroundColor=#ffffff;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="75" y="58" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" value="" style="endArrow=none;dashed=1;html=1;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="132" as="sourcePoint" />
+            <mxPoint x="90" y="527" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c4" value=":FrmThongKe" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;fontSize=12;fillColor=#ffffff;fontFamily=Arial;size=50;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="70" width="150" height="457" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" value=":ThongKeService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;fontSize=12;fillColor=#ffffff;fontFamily=Arial;size=50;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="698" y="70" width="150" height="457" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" value="SQL Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;fontSize=12;fillColor=#ffffff;fontFamily=Arial;size=50;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1156" y="70" width="150" height="457" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="504" y="155" width="12" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="504" y="419" width="12" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="767" y="199" width="12" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="c10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1225" y="243" width="12" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="c11" value="1: Chọn mốc thời gian (Từ ngày - Đến ngày) &amp;amp; bấm &quot;Thống kê&quot;" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=none;fontFamily=Arial;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="165" as="sourcePoint" />
+            <mxPoint x="504" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c12" value="2: LayTongHop(dtTu.Value, dtDen.Value)" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=none;fontFamily=Arial;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="516" y="209" as="sourcePoint" />
+            <mxPoint x="767" y="209" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c13" value="3: SELECT COUNT(*) FROM ChiTietPhieuMuon; SUM(PhiPhat) FROM PhieuPhat" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=none;fontFamily=Arial;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="779" y="253" as="sourcePoint" />
+            <mxPoint x="1225" y="253" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c14" value="4: Trả về số liệu tổng hợp &amp;amp; chi tiết phạt" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;dashed=1;fontSize=11;labelBackgroundColor=none;fontFamily=Arial;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1225" y="297" as="sourcePoint" />
+            <mxPoint x="779" y="297" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c15" value="5: Return ThongKeTongHop + DataTable" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;dashed=1;fontSize=11;labelBackgroundColor=none;fontFamily=Arial;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="767" y="341" as="sourcePoint" />
+            <mxPoint x="516" y="341" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c16" value="6: Hiển thị các chỉ số lên Label &amp;amp; bảng chi tiết phạt" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;dashed=1;fontSize=11;labelBackgroundColor=none;fontFamily=Arial;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="504" y="385" as="sourcePoint" />
+            <mxPoint x="90" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c17" value="7: Bấm nút &quot;Xuất file Excel&quot;" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=none;fontFamily=Arial;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="429" as="sourcePoint" />
+            <mxPoint x="504" y="429" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c18" value="8: Kết xuất tệp Excel và tải xuống máy tính" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;dashed=1;fontSize=11;labelBackgroundColor=none;fontFamily=Arial;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="504" y="473" as="sourcePoint" />
+            <mxPoint x="90" y="473" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

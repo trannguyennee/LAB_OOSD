@@ -5,7 +5,7 @@
 - **Sinh viên thực hiện:** Trần Nguyên
 - **Mã số sinh viên (MSSV):** 1250080121
 - **Lớp:** 12_ĐH_CNPM2
-- **Trường:** Đại học Công nghệ TP.HCM (HUTECH)
+- **Trường:** Đại học Tài nguyên và Môi trường TP. Hồ Chí Minh (HCMUNRE)
 - **Môn học:** Phương pháp phát triển phần mềm hướng đối tượng (OOSD)
 - **Giảng viên hướng dẫn:** ThS. Phạm Trọng Huynh
 
@@ -99,3 +99,16 @@ CSDL bao gồm 13 bảng nhất quán 100% với Class Diagram:
 1. **Khởi tạo CSDL:** Mở SQL Server Management Studio (SSMS), mở tập tin `Database/QuanLyCuaHangNGK_Database.sql` và nhấn **Execute (F5)** để tạo CSDL và nạp dữ liệu mẫu ban đầu.
 2. **Mở dự án:** Khởi động Visual Studio 2022, mở tập tin `QuanLyCuaHangNGK/QuanLyCuaHangNGK.sln`.
 3. **Biên dịch và chạy:** Nhấn phím **F5** (hoặc `Ctrl + F5`) để khởi chạy ứng dụng.
+
+---
+
+## 6. SƠ ĐỒ PHÂN TÍCH – THIẾT KẾ (DRAW.IO)
+Các sơ đồ được lưu tại thư mục [`IMAGES/LAB8/`](../IMAGES/LAB8/) và đã chèn vào báo cáo `LAB8_BAI_2_1250080121_Tran_Nguyen_12CNPM2.docx`:
+
+| File | Nội dung |
+|---|---|
+| `So_do_Use_Case_Lab1_Cau1.drawio` | Use Case tổng quát |
+| `So_do_Class_Diagram_Lab1_Cau3.drawio` | Biểu đồ lớp |
+| `So_do_Use_Case_Phan_Ra_Cau4.drawio` | Use Case phân rã |
+| `So_do_Activity_Diagram_Cau5.drawio` | Biểu đồ hoạt động |
+| `So_do_Sequence_Diagram_Cau6.drawio` | Biểu đồ tuần tự |

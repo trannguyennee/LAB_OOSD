@@ -1,0 +1,209 @@
+<mxfile host="app.diagrams.net" agent="draw.io" version="24.7.17">
+  <diagram id="Sequence_Diagram_Cau6" name="Sequence_Diagram_Cau6">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1560" pageHeight="1340" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c1" value="SƠ ĐỒ TUẦN TỰ (SEQUENCE DIAGRAM) - CÂU 6: NGHIỆP VỤ LẬP PHIẾU GHI NỢ CHO KHÁCH QUEN" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=16;fontStyle=1;fontFamily=Arial;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="10" width="1460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" value="nv : NhanVien" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;fontSize=12;fontStyle=1;fontFamily=Arial;participant=umlActor;size=60;verticalLabelPosition=top;verticalAlign=bottom;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="80" y="90" width="40" height="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" value="&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;br&gt;:FrmPhieuGhiNo" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;fontSize=12;fontStyle=1;fontFamily=Arial;size=50;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="230" y="90" width="160" height="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" value="&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;br&gt;:PhieuGhiNoService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;fontSize=12;fontStyle=1;fontFamily=Arial;size=50;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="450" y="90" width="160" height="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" value="&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;br&gt;:HoaDon" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;fontSize=12;fontStyle=1;fontFamily=Arial;size=50;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="680" y="90" width="160" height="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" value="&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;br&gt;:KhachHang" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;fontSize=12;fontStyle=1;fontFamily=Arial;size=50;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="880" y="90" width="160" height="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" value="&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;br&gt;:PhieuGhiNo" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;fontSize=12;fontStyle=1;fontFamily=Arial;size=50;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="90" width="160" height="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" value="&amp;lt;&amp;lt;database&amp;gt;&amp;gt;&lt;br&gt;:SQLServer_DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;fontSize=12;fontStyle=1;fontFamily=Arial;size=50;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="90" width="160" height="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;fillColor=#ffffff;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="304" y="195" width="12" height="1044" as="geometry" />
+        </mxCell>
+        <mxCell id="c10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;fillColor=#ffffff;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="524" y="237" width="12" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="c11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;fillColor=#ffffff;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="754" y="279" width="12" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="c12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;fillColor=#ffffff;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1384" y="321" width="12" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="c13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;fillColor=#ffffff;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="954" y="405" width="12" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="c14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;fillColor=#ffffff;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1384" y="447" width="12" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="c15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;fillColor=#ffffff;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1154" y="762" width="12" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="c16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;fillColor=#ffffff;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="754" y="804" width="12" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="c17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;fillColor=#ffffff;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="954" y="846" width="12" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="c18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;fillColor=#ffffff;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1384" y="916" width="12" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="c19" value="1: MoFormLapPhieuGhiNo(soHD)" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=none;fontFamily=Arial;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="200" as="sourcePoint" />
+            <mxPoint x="304" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c20" value="2: LayThongTin(soHD)" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=none;fontFamily=Arial;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="316" y="242" as="sourcePoint" />
+            <mxPoint x="524" y="242" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c21" value="3: TimHoaDon(soHD)" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=none;fontFamily=Arial;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="536" y="284" as="sourcePoint" />
+            <mxPoint x="754" y="284" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c22" value="4: SELECT SoHD, MaKH, TongTien, DaThanhToan&lt;br&gt;FROM HoaDon WHERE SoHD = @SoHD" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=none;fontFamily=Arial;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="766" y="326" as="sourcePoint" />
+            <mxPoint x="1384" y="326" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c23" value="5: return dataHD" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontSize=11;labelBackgroundColor=none;fontFamily=Arial;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="754" y="368" as="sourcePoint" />
+            <mxPoint x="536" y="368" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c24" value="6: KiemTraLoaiKhach(maKH)" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=none;fontFamily=Arial;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="536" y="410" as="sourcePoint" />
+            <mxPoint x="954" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c25" value="7: SELECT LoaiKH, TongNo FROM KhachHang&lt;br&gt;WHERE MaKH = @MaKH" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=none;fontFamily=Arial;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="966" y="452" as="sourcePoint" />
+            <mxPoint x="1384" y="452" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c26" value="8: return dataKH" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontSize=11;labelBackgroundColor=none;fontFamily=Arial;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="954" y="494" as="sourcePoint" />
+            <mxPoint x="536" y="494" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c27" value="9: HienThiThongTinLenForm(dataHD, dataKH)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontSize=11;labelBackgroundColor=none;fontFamily=Arial;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="524" y="536" as="sourcePoint" />
+            <mxPoint x="316" y="536" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c28" value="10: NhapThongTinGhiNo(soTienNo,&lt;br&gt;ngayDuKienTra, lyDoNo) &amp;amp; Click 'Lưu'" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=none;fontFamily=Arial;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="628" as="sourcePoint" />
+            <mxPoint x="304" y="628" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c29" value="11: LapPhieuGhiNo(soHD, maKH, soTienNo,&lt;br&gt;ngayDuKienTra, lyDoNo)" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=none;fontFamily=Arial;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="316" y="670" as="sourcePoint" />
+            <mxPoint x="524" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c30" value="12: ValidateDuLieu(soTienNo, ngayDuKienTra)" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=none;fontFamily=Arial;align=left;spacingLeft=4;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="536" y="712" as="sourcePoint" />
+            <mxPoint x="542" y="736" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="586" y="712" />
+              <mxPoint x="586" y="736" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c31" value="13: &amp;lt;&amp;lt;create&amp;gt;&amp;gt; new PhieuGhiNo(soPGN, soHD, maKH, maNV, soTienNo)" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=none;fontFamily=Arial;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="536" y="767" as="sourcePoint" />
+            <mxPoint x="1154" y="767" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c32" value="14: CapNhatTrangThaiHD(daThanhToan = false)" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=none;fontFamily=Arial;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="536" y="809" as="sourcePoint" />
+            <mxPoint x="754" y="809" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c33" value="15: TangTongCongNo(soTienNo)" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=none;fontFamily=Arial;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="536" y="851" as="sourcePoint" />
+            <mxPoint x="954" y="851" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c34" value="16: BEGIN TRANSACTION; INSERT INTO PhieuGhiNo(...);&lt;br&gt;UPDATE HoaDon SET DaThanhToan = 0;&lt;br&gt;UPDATE KhachHang SET TongNo = TongNo + @TienNo; COMMIT" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=none;fontFamily=Arial;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="536" y="921" as="sourcePoint" />
+            <mxPoint x="1384" y="921" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c35" value="17: Transaction Success" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontSize=11;labelBackgroundColor=none;fontFamily=Arial;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1384" y="1016" as="sourcePoint" />
+            <mxPoint x="536" y="1016" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c36" value="18: TraKetQua(true, soPGN)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontSize=11;labelBackgroundColor=none;fontFamily=Arial;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="524" y="1058" as="sourcePoint" />
+            <mxPoint x="316" y="1058" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c37" value="19: ThongBaoThanhCong &amp;amp; InPhieuGhiNo(soPGN)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontSize=11;labelBackgroundColor=none;fontFamily=Arial;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="304" y="1100" as="sourcePoint" />
+            <mxPoint x="100" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c38" value="20: TraKetQua(false, 'Từ chối: khách vãng lai')" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontSize=11;labelBackgroundColor=none;fontFamily=Arial;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="524" y="1187" as="sourcePoint" />
+            <mxPoint x="316" y="1187" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c39" value="21: HienThiThongBaoLoi('Giao dịch không hợp lệ!&lt;br&gt;Thu tiền mặt ngay')" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontSize=11;labelBackgroundColor=none;fontFamily=Arial;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="304" y="1229" as="sourcePoint" />
+            <mxPoint x="100" y="1229" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c40" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;width=50;height=26;fillColor=none;fontStyle=1;fontFamily=Arial;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="30" y="568" width="1480" height="691" as="geometry" />
+        </mxCell>
+        <mxCell id="c41" value="[LoaiKH = 'KhachQuen']" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=11;fontStyle=1;fontFamily=Arial;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="90" y="568" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="c42" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" y="1137" as="sourcePoint" />
+            <mxPoint x="1510" y="1137" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c43" value="[else: LoaiKH = 'KhachVangLai']" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=11;fontStyle=1;fontFamily=Arial;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1140" width="300" height="24" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

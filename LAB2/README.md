@@ -52,7 +52,7 @@ Dự án được xây dựng theo mô hình phân tầng chuẩn mực trong c�
 ---
 
 ### 🗄️ Cấu trúc Cơ sở dữ liệu (QuanLyThuVienDB)
-Script tạo CSDL tại `Database/QuanLyThuVien.sql` gồm 9 bảng chuẩn hóa:
+Script tạo CSDL tại `Database/QuanLyThuVien.sql` gồm 11 bảng chuẩn hóa:
 * `NhanVien`: Quản lý nhân viên thư viện.
 * `TheLoai`: Phân loại danh mục sách.
 * `NhaXuatBan`: Quản lý nhà xuất bản.
@@ -62,6 +62,16 @@ Script tạo CSDL tại `Database/QuanLyThuVien.sql` gồm 9 bảng chuẩn hóa
 * `PhieuMuon`: Quản lý thông tin mượn sách, ngày mượn, ngày hẹn trả.
 * `ChiTietPhieuMuon`: Lưu từng đầu sách trong phiếu mượn kèm ràng buộc `UNIQUE(MaPhieuMuon, MaDauSach)`.
 * `PhieuPhat`: Lưu thông tin phạt trễ hạn, mất sách, sách hư hỏng.
+* `TaiKhoan`: Tài khoản đăng nhập (`TenDangNhap`, `MatKhau`, `VaiTro`, `MaNguoiDung`, `TrangThai`).
+* `PhieuDatMua`: Phiếu đề xuất đặt mua tài liệu của độc giả (trạng thái duyệt, ý kiến phản hồi).
+
+---
+
+### 📐 Báo cáo và sơ đồ phân tích – thiết kế
+- **Báo cáo Word:** `LAB2_BAI_1_1250080121_Tran_Nguyen_12CNPM2.docx` – 14 Activity Diagram, 14 Sequence Diagram, thiết kế giao diện UC01–UC14 và ảnh chạy 6 form.
+- **Sơ đồ draw.io:** thư mục [`IMAGES/LAB2/`](../IMAGES/LAB2/) gồm `Activity_UC01…UC14.drawio` và `Sequence_UC01…UC14.drawio`.
+  Sơ đồ tuần tự có thanh kích hoạt cho các đối tượng; tên bảng/cột SQL trong thông điệp khớp với `Database/QuanLyThuVien.sql`.
+- **Thiết kế giao diện:** `QuanLyThuVien_ThietKeGiaoDien.xlsx`; đề bài gốc: `LAB2_He_thong_quan_ly_thu_vien.pdf`.
 
 ---
 

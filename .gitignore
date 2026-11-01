@@ -20,15 +20,6 @@ Desktop.ini
 $RECYCLE.BIN/
 .DS_Store
 
-## TUYỆT ĐỐI KHÔNG PUSH SƠ ĐỒ, DRAW.IO VÀ FILE ẢNH THEO YÊU CẦU
-So_do/
-so_do/
-[Ss]o_[Dd]o/
-*.drawio
-*.drawio.*
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.bmp
-*.svg
+## Draw.io backup/temp files
+*.drawio.bkp
+*.drawio.dtmp
