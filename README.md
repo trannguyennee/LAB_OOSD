@@ -32,3 +32,6 @@ Toàn bộ sơ đồ UML của các Lab được vẽ bằng **draw.io (diagrams
 - `Database/*.sql`: script tạo CSDL SQL Server (các Lab có hiện thực).
 - `<TenDuAn>/<TenDuAn>.sln`: solution C# WinForms (.NET Framework 4.7.2) theo kiến trúc 3 lớp `Forms → Services → Data`.
 - `README.md`: mô tả chi tiết và hướng dẫn chạy.
+
+---
+*Cập nhật hoàn tất toàn bộ các bài Lab: Chủ nhật, ngày 01/11/2026.*
